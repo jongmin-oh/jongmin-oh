@@ -2,11 +2,11 @@
 
 ## 💼 In the past, I was a ...
 
-AI program in the 1st batch of the [LIKELION](https://www.likelion.net) Education Institution. <br>
-AI Engineer at [atommerce](http://www.atommerce.com) and created a chatbot named [RONI](https://www.aitimes.kr/news/articleView.html?idxno=23722)
+- AI program in the 1st batch of the [LIKELION](https://www.likelion.net) Education Institution. <br>
+- ML Engineer at [atommerce](http://www.atommerce.com) and created a chatbot named [RONI](https://www.aitimes.kr/news/articleView.html?idxno=23722)
 
 ## 👨‍💼 Currently, I am a ...
- AI engineer at "Reppely". <br>
+- ML engineer at "Reppely". <br>
 
 ## 🚀 Technical Skills
 
