@@ -29,4 +29,3 @@ For more information, you can check out my [blog](https://velog.io/@acdongpgm) o
 
 
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=jongmin-oh&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jongmin-oh&layout=compact&theme=tokyonight)
