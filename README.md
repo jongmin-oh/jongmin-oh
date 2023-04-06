@@ -4,7 +4,7 @@ I'm a ML engineer working at a startup. <br>
 
 ## 💼 Experience
 
-I'm graduate of the AI program at [LIKELION](https://www.likelion.net) Education Institution, 1st batch.
+I'm graduate of the AI program at [LIKELION](https://www.likelion.net) Education Institution, 1st batch. <
 I currently work as a machine learning engineer at "Reppely". 
 
 ## 🚀 Technical Skills
