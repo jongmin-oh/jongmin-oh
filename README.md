@@ -19,6 +19,12 @@ I currently work as a machine learning engineer at "Reppely".
 [![DB](https://img.shields.io/badge/DB-MySQL-blue)]()
 [![DB](https://img.shields.io/badge/DB-Postgres-blue)]()
 
+## 💡 Interests
+
+- NLP
+- MLOps
+- Open-domain chatbots
+
 ## 📫 Contact
 
 For more information, you can check out my [blog](https://velog.io/@acdongpgm) or [LinkedIn profile](https://www.linkedin.com/in/%EC%A2%85%EB%AF%BC-%EC%98%A4-b1555a202/). Thank you!
