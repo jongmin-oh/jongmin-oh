@@ -26,3 +26,6 @@ I currently work as a machine learning engineer at "Reppely". <br>
 ## 📫 Contact
 
 For more information, you can check out my [blog](https://velog.io/@acdongpgm) or [LinkedIn profile](https://www.linkedin.com/in/%EC%A2%85%EB%AF%BC-%EC%98%A4-b1555a202/). Thank you!
+
+
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=jongmin-oh&show_icons=true&theme=tokyonight)
