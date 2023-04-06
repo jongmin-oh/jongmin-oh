@@ -7,7 +7,7 @@
 - ML Engineer at [atommerce](http://www.atommerce.com) and created a chatbot named [RONI](https://www.aitimes.kr/news/articleView.html?idxno=23722)
 
 ## 👨‍💼 Currently, I am a ...
-- ML engineer at "Reppely". <br>
+- ML engineer at [Reppely](http://reppley.com/). <br>
 
 ## 🚀 Technical Skills
 
