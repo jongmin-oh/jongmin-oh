@@ -1,7 +1,5 @@
 # Hello! Nice to meet you. 👋
 
-I'm a ML engineer working at a startup.
-
 ## 💼 Experience
 
 I'm graduate of the AI program at [LIKELION](https://www.likelion.net) Education Institution, 1st batch. <br>
