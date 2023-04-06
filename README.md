@@ -9,29 +9,15 @@ I currently work as a machine learning engineer at "Reppely".
 
 ## 🚀 Technical Skills
 
-Language
-- Python
-
-BackEnd
-- FastAPI
-
-DL Framwork
-- Pytorch
-- SentenceTransformer
-
-Search
-- Elastic Search
-
-DB
-- MySQL
-- Postgres
-
-## 💡 Interests
-
-- NLP
-- MLOps
-- Model Optimizaion
-- Open-domain chatbot
+[![Language](https://img.shields.io/badge/Language-Python-blue)]()
+[![BackEnd](https://img.shields.io/badge/BackEnd-FastAPI-blueviolet)]()
+[![DL Framework](https://img.shields.io/badge/DL%20Framework-Pytorch-yellow)]()
+[![DL Framework](https://img.shields.io/badge/DL%20Framework-SentenceTransformer-yellow)]()
+[![Search](https://img.shields.io/badge/Search-Elastic%20Search-orange)]()
+[![Search](https://img.shields.io/badge/Search-Faiss-red)]()
+[![NLP](https://img.shields.io/badge/NLP-huggingFace-blue)]()
+[![DB](https://img.shields.io/badge/DB-MySQL-blue)]()
+[![DB](https://img.shields.io/badge/DB-Postgres-blue)]()
 
 ## 📫 Contact
 
