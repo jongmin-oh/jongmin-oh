@@ -15,6 +15,7 @@
 [![BackEnd](https://img.shields.io/badge/BackEnd-FastAPI-blueviolet)]()
 [![DL Framework](https://img.shields.io/badge/DL%20Framework-Pytorch-yellow)]()
 [![DL Framework](https://img.shields.io/badge/DL%20Framework-SentenceTransformer-yellow)]()
+[![DL Framework](https://img.shields.io/badge/DL%20Framework-Onnx-yellow)]()
 [![Search](https://img.shields.io/badge/Search-Elastic%20Search-orange)]()
 [![Search](https://img.shields.io/badge/Search-Faiss-red)]()
 [![NLP](https://img.shields.io/badge/NLP-huggingFace-blue)]()
