@@ -1,16 +1,38 @@
-### Hi there 👋
+# Hello! Nice to meet you. 👋
 
-<!--
-**jongmin-oh/jongmin-oh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a ML engineer working at a startup.
+I'm graduate of the AI program at [LIKELION](https://www.likelion.net) Education Institution, 1st batch.
 
-Here are some ideas to get you started:
+## 💼 Experience
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I currently work as a machine learning engineer at "Reppely". 
+
+## 🚀 Technical Skills
+
+Language
+- Python
+
+BackEnd
+- FastAPI
+
+DL Framwork
+- Pytorch
+- SentenceTransformer
+
+Search
+- Elastic Search
+
+DB
+- MySQL
+- Postgres
+
+## 💡 Interests
+
+- NLP
+- MLOps
+- Model Optimizaion
+- Open-domain chatbot
+
+## 📫 Contact
+
+For more information, you can check out my [blog](https://velog.io/@acdongpgm) or [LinkedIn profile](https://www.linkedin.com/in/%EC%A2%85%EB%AF%BC-%EC%98%A4-b1555a202/). Thank you!
