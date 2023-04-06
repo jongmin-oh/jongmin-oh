@@ -1,9 +1,9 @@
 # Hello! Nice to meet you. 👋
 
-## 👨‍💼 Currently, I am a ...
+## 👨‍💼 Currently
 - ML engineer at [Reppely](http://reppley.com/). <br>
 
-## 💼 In the past, I was a ...
+## 💼 In the past
 
 - AI program in the 1st batch of the [LIKELION](https://www.likelion.net) Education Institution.
 - ML Engineer at [INDJ](https://www.indj.ai/) and developed a music recommendation system. 
