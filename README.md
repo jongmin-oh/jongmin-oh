@@ -1,7 +1,7 @@
 # Hello! Nice to meet you. 👋
 
 ## 👨‍💼 Currently
-- ML engineer at [Reppely](http://reppley.com/). <br>
+- ML Engineer and Co-Founder at [Reppely](http://reppley.com/). <br>
 
 ## 💼 In the past
 
