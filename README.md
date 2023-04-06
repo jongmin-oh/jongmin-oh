@@ -1,9 +1,12 @@
 # Hello! Nice to meet you. 👋
 
-## 💼 Experience
+## 💼 In the past, I was a ...
 
-I'm graduate of the AI program at [LIKELION](https://www.likelion.net) Education Institution, 1st batch. <br>
-I currently work as a machine learning engineer at "Reppely". <br>
+AI program in the 1st batch of the [LIKELION](https://www.likelion.net) Education Institution. <br>
+AI Engineer at [atommerce](http://www.atommerce.com) and created a chatbot named [RONI](https://www.aitimes.kr/news/articleView.html?idxno=23722)
+
+## 👨‍💼 Currently, I am a ...
+ AI engineer at "Reppely". <br>
 
 ## 🚀 Technical Skills
 
