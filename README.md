@@ -28,6 +28,5 @@ I currently work as a machine learning engineer at "Reppely". <br>
 For more information, you can check out my [blog](https://velog.io/@acdongpgm) or [LinkedIn profile](https://www.linkedin.com/in/%EC%A2%85%EB%AF%BC-%EC%98%A4-b1555a202/). Thank you!
 
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=jongmin-oh&show_icons=true&theme=tokyonight)
-
-<div align="center">![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jongmin-oh&layout=compact&theme=tokyonight)</div>
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=jongmin-oh&show_icons=true&theme=tokyonight) <br>
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jongmin-oh&layout=compact&theme=tokyonight)
