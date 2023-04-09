@@ -27,6 +27,7 @@
 - NLP
 - MLOps
 - Open-domain chatbots
+- Model Serving Incredibly Fast.
 
 ## 📫 Contact
 
