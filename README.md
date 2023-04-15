@@ -2,7 +2,7 @@
 
 ## 👨‍💼 Currently
 - ML Engineer and Co-Founder at [Reppely](http://reppley.com/). <br>
-- Operating a KakaoTalk [chatbot](http://pf.kakao.com/_BNZRb) named [위로봇 오복이](https://github.com/jongmin-oh/comfort_chatbot_v2)
+- Operating a KakaoTalk [chatbot](http://pf.kakao.com/_BNZRb) named ["위로봇 오복이"](https://github.com/jongmin-oh/comfort_chatbot_v2)
 
 ## 💼 In the past
 
