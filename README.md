@@ -2,13 +2,15 @@
 
 ## 👨‍💼 Currently
 - ML Engineer and Co-Founder at [Reppely](http://reppley.com/). <br>
-- Operating a KakaoTalk [chatbot](http://pf.kakao.com/_BNZRb) named ["위로봇 오복이"](https://github.com/jongmin-oh/comfort_chatbot_v2)
 
 ## 💼 In the past
 
 - AI program in the 1st batch of the [LIKELION](https://www.likelion.net) Education Institution.
 - ML Engineer at [INDJ](https://www.indj.ai/) and developed a music recommendation system. 
 - ML Engineer at [atommerce](http://www.atommerce.com) and developed a chatbot named [RONI](https://www.aitimes.kr/news/articleView.html?idxno=23722)
+
+## 🧸 Toy Project
+- Operating a KakaoTalk [chatbot](http://pf.kakao.com/_BNZRb) named ["위로봇 오복이"](https://github.com/jongmin-oh/comfort_chatbot_v2)
 
 ## 🚀 Technical Skills
 
