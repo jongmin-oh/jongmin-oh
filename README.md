@@ -12,6 +12,11 @@
 ## 🧸 Toy Project
 - Operating a KakaoTalk [chatbot](http://pf.kakao.com/_BNZRb) named ["위로봇 오복이"](https://github.com/jongmin-oh/comfort_chatbot_v2)
 
+## 📃 Paper
+- 딥러닝 모델(BERT)과 감정 어휘 사전을 결합한 음원 가사 감정 분석
+ (Analysis of Emotions in Lyrics by Combining Deep Learning BERT and Emotional Lexicon)
+  : 한국컴퓨터정보학회 · 2022년 7월 14일
+  
 ## 🚀 Technical Skills
 
 [![Language](https://img.shields.io/badge/Language-Python-blue)]()
