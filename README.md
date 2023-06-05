@@ -11,7 +11,7 @@
 
 ## 🧸 Toy Project
 - Operating a KakaoTalk [chatbot](http://pf.kakao.com/_BNZRb) named ["위로봇 오복이"](https://github.com/jongmin-oh/comfort_chatbot_v2)
-- Movie Recommend System Web Service [무비판](https://github.com/jongmin-oh/movieRecSys) Using Django
+- Movie Recommend System [Web](http://alswhddh.pythonanywhere.com/) Service [무비판](https://github.com/jongmin-oh/movieRecSys) Using Django
 
 ## 📃 Paper
 - 딥러닝 모델(BERT)과 감정 어휘 사전을 결합한 음원 가사 감정 분석 : 한국컴퓨터정보학회 · 2022년 7월 14일 <br>
