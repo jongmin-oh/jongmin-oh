@@ -27,6 +27,7 @@
 [![Search](https://img.shields.io/badge/Search-Elastic%20Search-orange)]()
 [![Search](https://img.shields.io/badge/Search-Faiss-red)]()
 [![NLP](https://img.shields.io/badge/NLP-huggingFace-blue)]()
+[![Nvidia](https://img.shields.io/badge/Triton)]()
 [![DB](https://img.shields.io/badge/DB-MySQL-blue)]()
 [![DB](https://img.shields.io/badge/DB-Postgres-blue)]()
 
