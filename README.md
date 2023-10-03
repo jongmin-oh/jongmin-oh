@@ -10,7 +10,7 @@
 - AI Engineer at [atommerce](http://www.atommerce.com) and developed a chatbot named [RONI](https://www.aitimes.kr/news/articleView.html?idxno=23722)
 
 ## 🧸 Toy Project
-- Operating a KakaoTalk [chatbot](http://pf.kakao.com/_BNZRb) named ["위로봇 오복이"](https://github.com/jongmin-oh/comfort_chatbot_v2)
+- Operating a KakaoTalk [chatbot](http://pf.kakao.com/_BNZRb) Streamlit [WEB](http://43.202.104.162:8501) named ["위로봇 오복이"](https://github.com/jongmin-oh/comfort_chatbot_v2)
 - Movie Recommend System [Web](http://alswhddh.pythonanywhere.com/) Service [무비판](https://github.com/jongmin-oh/movieRecSys) Using Django
 
 ## 📃 Paper
