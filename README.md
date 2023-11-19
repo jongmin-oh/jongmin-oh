@@ -37,6 +37,7 @@
 - MLOps
 - Open-domain chatbots
 - Model Serving Incredibly Fast.
+- Data Engineering
 
 ## 📫 Contact
 
