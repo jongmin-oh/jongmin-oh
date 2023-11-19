@@ -1,7 +1,7 @@
 # Hello! Nice to meet you. 👋
 
 ## 👨‍💼 Currently
-- AI Engineer and Co-Founder at [Reppely](http://reppley.com/). <br>
+- AI Engineer and Co-Founder at [Reppley](http://reppley.com/). <br>
 
 ## 💼 In the past
 
