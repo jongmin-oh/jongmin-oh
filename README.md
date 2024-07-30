@@ -21,7 +21,7 @@
 
 - NLP
 - MLOps
-- Open-domain chatbots
+- AI companion
 - Model Serving Incredibly Fast.
 - Data Engineering
 
