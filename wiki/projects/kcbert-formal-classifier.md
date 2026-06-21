@@ -1,0 +1,49 @@
+---
+title: 존댓말/반말 분류기 (kcbert-formal-classifier)
+type: project
+tags: [personal, NLP, Korean, BERT, classification, fine-tuning, huggingface, open-source]
+created: 2026-06-21
+updated: 2026-06-21
+sources: [career-wiki-seed.md]
+---
+
+# 존댓말/반말 분류기 (kcbert-formal-classifier)
+
+**성격**: 1인 개발 · Hugging Face 공개 모델  
+**누적 다운로드**: **38,641회**  
+**링크**: https://huggingface.co/j5ng/kcbert-formal-classifier
+
+## 개요
+
+입력 문장이 존댓말인지 반말인지 판별하는 한국어 이진 분류 모델.
+
+## 문제 의식
+
+형태소 분석기 방식은 "께서" 같은 존칭 하나에 전체를 존댓말로 오판하는 한계.
+→ 딥러닝으로 문장 전체 맥락 기반 판별.
+
+**예**: "교수님께서 자료 가져오라했는데 기억나?" → **반말(92.86%)** 로 정확하게 분류.
+
+## 데이터
+
+- 스마일게이트 말투 데이터셋
+- AI허브 감성 대화 말뭉치
+
+## 모델
+
+KcBERT (beomi/kcbert-base) fine-tuning.
+
+## 스택
+
+`Python` · `PyTorch` · `HuggingFace Transformers` · `KcBERT (BERT)` · `Fine-tuning`
+
+## 임팩트
+
+- `j5ng/kcbert-formal-classifier`로 공개
+- CUDA 배치 추론 예제까지 제공 → 대량 데이터 처리에도 바로 사용 가능
+- 누적 **3.8만 회** 이상 다운로드
+
+## 연관
+
+→ [[projects/et5-typos-corrector\|맞춤법 교정기]] (함께 Hugging Face 공개 모델 2종, 합산 150,436회)
+→ [[entities/reppley\|레플리]] 챗봇에서 말투 분류는 페르소나 일관성과 직접 연관

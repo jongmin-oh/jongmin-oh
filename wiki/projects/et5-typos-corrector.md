@@ -1,0 +1,43 @@
+---
+title: 한국어 맞춤법 교정기 (et5-typos-corrector)
+type: project
+tags: [personal, NLP, Korean, T5, fine-tuning, huggingface, open-source]
+created: 2026-06-21
+updated: 2026-06-21
+sources: [career-wiki-seed.md]
+---
+
+# 한국어 맞춤법 교정기 (et5-typos-corrector)
+
+**성격**: 1인 개발 · Hugging Face 공개 모델  
+**누적 다운로드**: **111,795회**  
+**링크**: https://huggingface.co/j5ng/et5-typos-corrector
+
+## 개요
+
+ETRI ET5 기반 fine-tuning. **한국어 구어체 전용** 맞춤법 교정기.
+
+오타·줄임말·자음모음 분리(예: "무ㅓ하냐고", "언넝") 같은 실제 채팅체를 자연스럽게 교정.
+
+## 데이터
+
+- 모두의 말뭉치 + 맞춤법 교정 데이터 전처리
+- 최종 학습 데이터: **318,882쌍**
+
+## GPU 지원
+
+AICA(인공지능산업융합사업단) GPU 리소스 지원받아 학습.
+
+## 스택
+
+`Python` · `PyTorch` · `HuggingFace Transformers` · `T5 (ET5)` · `Fine-tuning`
+
+## 임팩트
+
+- `j5ng/et5-typos-corrector`로 공개
+- 코드 작성 없이 모델만 받아 바로 쓰도록 사용 예제·파이프라인 제공
+- 직접 만든 모델이 커뮤니티에서 **11만 회 이상** 사용된 대표 사례
+
+## 연관
+
+→ [[projects/kcbert-formal-classifier\|존댓말/반말 분류기]] (함께 Hugging Face 공개 모델 2종, 합산 150,436회)
