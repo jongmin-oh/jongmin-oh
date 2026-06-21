@@ -1,0 +1,64 @@
+---
+title: 레플리 — 캐릭터 이미지 생성 서비스
+type: project
+tags: [reppley, stable-diffusion, GPU, image-generation, comfyui, cost-optimization]
+created: 2026-06-21
+updated: 2026-06-21
+sources: [career-wiki-seed.md]
+---
+
+# 캐릭터 이미지 생성 서비스 0→1 구축
+
+**소속**: [[entities/reppley\|Reppley]]  
+**특이사항**: 이미지 생성은 사전 경험 없는 영역 — 완전한 0→1
+
+## 문제
+
+- 레플리 사용자가 캐릭터 이미지 만들려고 **외부 서비스로 이탈**
+- 외부 서비스: 조작 어렵고 대부분 해외 서비스 → 연령대 낮은 주 타겟층 진입장벽 높음
+- SaaS API: MAU 3만 규모에서 호출 단가가 운영 압박
+
+**결정**: "앱 내 무료 + 빠른 생성"을 제품 차별점으로 → 직접 구축.
+
+## 주요 기능
+
+- 웹툰 / 퇴폐 / 감성 / 스케치 스타일 이미지 생성
+
+## 핵심 결정 3가지
+
+### 1. 인프라 — SaaS 대신 GPU 직접 계약
+
+가비아 RTX A 시리즈 시간당 단가 계약.
+호출당 단가 → 시간당 단가로 전환 → **트래픽이 늘수록 단위 비용 하락**.
+
+### 2. 속도 — 서빙 엔진 자체 구현
+
+| 도구 | 장점 | 한계 |
+|------|------|------|
+| ComfyUI | 빠른 추론 | REST API 없음 |
+| SD WebUI | /sdapi/v1 API | 무겁고 느림 |
+
+→ 두 트레이드오프를 동시 해결: ComfyUI 실행 엔진 위에 SD WebUI 호환 REST API를 얹은 헤드리스 서버 직접 구현.  
+→ [[projects/comfyui-api-server\|ComfyUI API Server]] (GitHub 공개)
+
+### 3. 비용 — 번역 캐싱
+
+한→영 번역 키워드 캐싱 시스템. 최초 1회만 번역, 이후 캐시 히트로 번역 API 비용 선형 증가 차단.
+
+### 4. 운영 리스크 — NSFW 자동 감지
+
+NSFW 감지 모델 자체 개발 → 부적절 이미지 자동 차단. ([[projects/ops-tools\|운영 도구 내재화]]의 이미지 자동 검열과 연계)
+
+## 스택
+
+`Python` · `FastAPI` · `ComfyUI` · `Stable Diffusion` · `가비아 GPU (RTX A)`
+
+## 결과
+
+| 지표 | 수치 |
+|------|------|
+| 일평균 처리량 | 3,000건 |
+| 생성 속도 | **5초 이내** (경쟁사 대비 최대 12배 빠름) |
+| 인프라 비용 | **월 24만원** (SaaS API 대비 최소 5배 절감) |
+
+정리 글: https://buly.kr/FhPsQw
