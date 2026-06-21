@@ -59,8 +59,8 @@ LLM: 쿼리 응답 전 이 파일을 먼저 읽고 관련 페이지를 찾아 dr
 
 | 페이지 | 요약 |
 |--------|------|
-| [papers/bert-emotion-lyrics](papers/bert-emotion-lyrics.md) | 2022 논문 — BERT+Lexicon 하이브리드 가사 감정 분석 |
-| [papers/gacha-probability](papers/gacha-probability.md) | 청강대 논문 — 확률형 아이템 고시 확률과 실제 확률, DBpia Top 5% (이용수 2,512) |
+| [가사감정분석](papers/가사감정분석.md) | 2022 논문 — BERT+Lexicon 하이브리드 가사 감정 분석 |
+| [가챠확률연구](papers/가챠확률연구.md) | 청강대 논문 — 확률형 아이템 고시 확률과 실제 확률, DBpia Top 5% (이용수 2,512) |
 
 ## Skills
 
