@@ -2,7 +2,9 @@
 
 **Jongmin Oh (오종민)** 
 a **problem-first** AI Engineer.
+
 I lead with **0→1 execution** and **fast prototyping**
+
 turning problems into working products quickly.
 
 ## 👨‍💼 Career
