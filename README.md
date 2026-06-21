@@ -17,7 +17,7 @@ turning problems into working products quickly. <br>
 - Evolved retrieval across 4 versions: Elasticsearch → SBERT embeddings → **Faiss PQ + ONNX uint8 (7× faster)** → hybrid (BM25 + dense, RRF)
 - Hand-built a 35,363-sentence comfort dataset
 
-**[널스체크](https://번아웃.com/)** — burnout decision-support service for nurses (React 19 + TS)
+**[널스체크](https://github.com/jongmin-oh/nurse-burnout-check)** — burnout decision-support service for nurses (React 19 + TS)
 
 **[ComfyUI API Server](https://github.com/jongmin-oh/comfyUI-api-server)** — Stable Diffusion serving engine, open-sourced (GPL-3.0, Docker/CUDA)
 
