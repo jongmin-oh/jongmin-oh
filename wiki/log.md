@@ -44,7 +44,3 @@ index.md 업데이트.
 ## [2026-06-21] update | 초기-스타트업-시행착오.md — 클러스터 D(effort-first) 추가, 1차 마무리
 
 추가 회고 "중요한 건 미루고 구현하기 쉬운 것만 만들었다(이건 빨리 할 수 있잖아요)"를 클러스터 D "쉬운 것이 중요한 것을 밀어낸다"(우선순위 역전, effort-first→impact-first)로 신설. 근본 진단 섹션에 "effort-first는 solution-first의 사촌"(출발점 vs 순서) 연결 추가. 관통선 표에 D행 추가. index.md 갱신. → 사용자 "1차 마무리, 생각나면 더".
-
-## [2026-06-21] update | 역방향 링크 — working-style·그로스해킹 → 초기-스타트업-시행착오
-
-skills/working-style.md: 원칙2(오버엔지니어링 경계)에 "기원: 시행착오 클러스터 A/3번" 백링크, 남은 과제에 "자각의 뿌리: 시행착오 5번(클러스터 C/solution-first)" 백링크. reflections/그로스해킹: "관점의 전환" 절에 "이 세션이 충격이었던 이유=시행착오를 언어로 정리, problem-first가 solution-first의 반대편" 백링크. 양방향 연결 완성.
