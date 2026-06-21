@@ -17,16 +17,21 @@ LLM: 쿼리 응답 전 이 파일을 먼저 읽고 관련 페이지를 찾아 dr
 | [overview](overview.md) | 커리어 전체 요약 — 아크, 핵심 특징, 주요 지표 |
 | [timeline](timeline.md) | 연표 — 역할, 출시, 논문, 특허 |
 
-## Entities (회사·교육기관)
+## Entities — 회사
 
 | 페이지 | 요약 |
 |--------|------|
-| [entities/reppley](entities/reppley.md) | 현재 — AI Co-founder, 캐릭터 챗봇, MAU 3만 |
-| [entities/atommerce](entities/atommerce.md) | 2021.09–12 — 감정 위로 챗봇 로니 |
-| [entities/indj](entities/indj.md) | 2021.04–07 — 음악 가사 감정 분류 |
-| [entities/likelion](entities/likelion.md) | 교육 — AI 프로그램 1기 |
-| [entities/inhapoly](entities/inhapoly.md) | 교육 — 인하공업전문대학, GPA 4.36 |
-| [entities/cheonggang](entities/cheonggang.md) | 교육 — 청강문화산업대학교, 게임공학부 |
+| [레플리](entities/companies/레플리.md) | 현재 — AI Co-founder, 캐릭터 챗봇, MAU 3만 |
+| [아토머스](entities/companies/아토머스.md) | 2021.09–12 — 감정 위로 챗봇 로니 |
+| [인디제이](entities/companies/인디제이.md) | 2021.04–07 — 음악 가사 감정 분류 |
+
+## Entities — 교육기관
+
+| 페이지 | 요약 |
+|--------|------|
+| [멋쟁이사자처럼](entities/education/멋쟁이사자처럼.md) | AI 프로그램 1기 |
+| [인하공전](entities/education/인하공전.md) | 컴퓨터정보과 전공 심화, GPA 4.36 |
+| [청강대](entities/education/청강대.md) | 게임공학부 전문학사 |
 
 ## Projects — 레플리
 
