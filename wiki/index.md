@@ -37,23 +37,23 @@ LLM: 쿼리 응답 전 이 파일을 먼저 읽고 관련 페이지를 찾아 dr
 
 | 페이지 | 요약 |
 |--------|------|
-| [캐릭터 챗봇 API](projects/company/reppley-main-api.md) | 캐릭터 페르소나 챗봇 API, 5개 기능, 일 70만 건 |
-| [선톡 시스템](projects/company/suntok.md) | 캐릭터가 먼저 말 걸기, 일 8,000건 |
-| [이미지 생성 서비스](projects/company/image-generation.md) | 이미지 생성 0→1, 일 3,000건, 5초, 월 24만원 |
-| [장기기억 시스템](projects/company/long-term-memory.md) | RAG 폐기 → LLM+Redis |
-| [맛보기 채팅 웹](projects/company/preview-chat.md) | 가입 마찰 우회 진입점 |
-| [운영 도구 내재화](projects/company/ops-tools.md) | 9개 반복 작업 자동화 |
-| [정밀의료 AI 문진](projects/company/medical-ai.md) | 외부 과제, QLoRA, 실패 경험 |
+| [캐릭터 챗봇 API](projects/company/캐릭터챗봇API.md) | 캐릭터 페르소나 챗봇 API, 5개 기능, 일 70만 건 |
+| [선톡 전송 시스템](projects/company/선톡전송시스템.md) | 캐릭터가 먼저 말 걸기, 일 8,000건 |
+| [이미지 생성 서비스](projects/company/이미지생성서비스.md) | 이미지 생성 0→1, 일 3,000건, 5초, 월 24만원 |
+| [장기기억 시스템](projects/company/장기기억시스템.md) | RAG 폐기 → LLM+Redis |
+| [맛보기 채팅 웹](projects/company/맛보기채팅웹.md) | 가입 마찰 우회 진입점 |
+| [운영 도구 내재화](projects/company/운영도구내재화.md) | 9개 반복 작업 자동화 |
+| [정밀의료 AI 문진](projects/company/정밀의료AI문진.md) | 외부 과제, QLoRA, 실패 경험 |
 
 ## Projects — 개인
 
 | 페이지 | 요약 |
 |--------|------|
-| [위로 챗봇 오복이](projects/personal/obok.md) | 졸업작품, ES→SBERT→ONNX/Faiss→하이브리드 |
-| [맞춤법 교정기](projects/personal/et5-typos-corrector.md) | Hugging Face 다운로드 111,795회 |
-| [존댓말/반말 분류기](projects/personal/kcbert-formal-classifier.md) | 다운로드 38,641회 |
-| [널스체크](projects/personal/nurscheck.md) | 간호사 번아웃 의사결정 지원 서비스 |
-| [ComfyUI API Server](projects/personal/comfyui-api-server.md) | 이미지 생성 서빙 엔진, GPL-3.0 공개 |
+| [위로 챗봇 오복이](projects/personal/오복이.md) | 졸업작품, ES→SBERT→ONNX/Faiss→하이브리드 |
+| [맞춤법 교정기](projects/personal/맞춤법교정기.md) | Hugging Face 다운로드 111,795회 |
+| [존댓말/반말 분류기](projects/personal/존댓말반말분류기.md) | 다운로드 38,641회 |
+| [널스체크](projects/personal/널스체크.md) | 간호사 번아웃 의사결정 지원 서비스 |
+| [ComfyUI API 서버](projects/personal/ComfyUI-API-서버.md) | 이미지 생성 서빙 엔진, GPL-3.0 공개 |
 
 ## Papers
 
