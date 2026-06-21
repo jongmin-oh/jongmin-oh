@@ -1,11 +1,9 @@
 # Hello! Nice to meet you. 👋
 
 **Jongmin Oh (오종민)** 
-a **problem-first** AI Engineer.
-
-I lead with **0→1 execution** and **fast prototyping**
-
-turning problems into working products quickly.
+a **problem-first** AI Engineer. <br>
+I lead with **0→1 execution** and **fast prototyping** <br>
+turning problems into working products quickly. <br>
 
 ## 👨‍💼 Career
 - **AI Co-Founder @ [Reppley](http://reppley.com/)** (2022.10 – now) — character-persona chatbot, built 0→1
