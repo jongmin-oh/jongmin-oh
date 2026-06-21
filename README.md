@@ -1,7 +1,9 @@
 # Hello! Nice to meet you. 👋
 
-**Jongmin Oh (오종민)** — a **problem-first** AI Engineer.
-I lead with **0→1 execution** and **fast prototyping** — turning problems into working products quickly.
+**Jongmin Oh (오종민)** 
+a **problem-first** AI Engineer.
+I lead with **0→1 execution** and **fast prototyping**
+turning problems into working products quickly.
 
 ## 👨‍💼 Career
 - **AI Co-Founder @ [Reppley](http://reppley.com/)** (2022.10 – now) — character-persona chatbot, built 0→1
@@ -11,13 +13,13 @@ I lead with **0→1 execution** and **fast prototyping** — turning problems in
 
 ## 🛠️ Things I built
 
-**위로 챗봇 오복이** — empathetic comfort chatbot (graduation project)
+**[위로 챗봇 오복이](https://github.com/jongmin-oh/comfort-retrieval-chatbot)** — empathetic comfort chatbot (graduation project)
 - Evolved retrieval across 4 versions: Elasticsearch → SBERT embeddings → **Faiss PQ + ONNX uint8 (7× faster)** → hybrid (BM25 + dense, RRF)
 - Hand-built a 35,363-sentence comfort dataset
 
 **[널스체크](https://번아웃.com/)** — burnout decision-support service for nurses (React 19 + TS)
 
-**[ComfyUI API Server](https://github.com/jongmin-oh)** — Stable Diffusion serving engine, open-sourced (GPL-3.0, Docker/CUDA)
+**[ComfyUI API Server](https://github.com/jongmin-oh/comfyUI-api-server)** — Stable Diffusion serving engine, open-sourced (GPL-3.0, Docker/CUDA)
 
 ## 🤗 Open Source — 150K+ downloads on Hugging Face
 - **[한국어 맞춤법 교정기](https://huggingface.co/j5ng/et5-typos-corrector)** (`j5ng/et5-typos-corrector`) — 111,795 downloads
@@ -25,7 +27,6 @@ I lead with **0→1 execution** and **fast prototyping** — turning problems in
 
 ## 📃 Papers
 - **딥러닝(BERT) + 감정 어휘 사전 결합 음원 가사 감정 분석** — 한국컴퓨터정보학회, 2022.07
-- **확률형 아이템 고시 확률 vs 실제 확률 연구** — DBpia **Top 5%**
 
 ## 🏅 Patent
 - *AI 기반 챗봇 학습 데이터 생성 방법* — KIPO 10-2757044 (registered 2025.01)
@@ -35,4 +36,4 @@ I lead with **0→1 execution** and **fast prototyping** — turning problems in
 `BERT/Transformers` · `SBERT · Faiss/ONNX` · `RAG` · `Prompt Engineering` · `Stable Diffusion/ComfyUI`
 
 ## 📫 Contact
-[Blog](https://velog.io/@acdongpgm) · [GitHub](https://github.com/jongmin-oh) — Thank you!
+[Blog](https://velog.io/@acdongpgm)
