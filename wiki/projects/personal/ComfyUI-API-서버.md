@@ -10,7 +10,7 @@ sources: [career-wiki-seed.md]
 # ComfyUI API Server
 
 **성격**: 1인 개발 · GitHub 공개 (GPL-3.0)  
-**실서비스 용도**: [[projects/image-generation\|레플리 이미지 생성 서비스]]의 핵심 서빙 엔진  
+**실서비스 용도**: [[projects/company/이미지생성서비스\|레플리 이미지 생성 서비스]]의 핵심 서빙 엔진  
 **링크**: https://github.com/jongmin-oh/comfyUI-api-server
 
 ## 문제 정의
