@@ -45,6 +45,21 @@ sources: [career-wiki-seed.md]
 
 **비용 최적화**: OpenAI Batch API로 데이터 생성 비용 약 **50% 절감** (총 $11).
 
+### RAG 파이프라인 구축
+
+파인튜닝 모델만으로는 의료 정보의 **할루시네이션**을 막기 어렵다는 판단 하에 RAG를 별도 레이어로 구성.
+
+| 구성 요소 | 선택 | 비고 |
+|---------|------|------|
+| 벡터 DB | ChromaDB | 로컬 운영, 별도 인프라 불필요 |
+| 임베딩 모델 | `klue/roberta-large` | 당시 한국어 NLP 표준 모델 |
+| 지식 소스 | AI Hub 의료 데이터 + 자체 수집 데이터 정제 | 신뢰 가능한 국내 의료 데이터 |
+| 검색 방식 | Semantic Search (Dense only) | |
+
+**핵심 목적**: 모델이 학습하지 않은 의료 지식을 그대로 생성하는 것을 방지. 검색된 신뢰 문서를 컨텍스트로 주입해 답변을 문서 범위 내로 제한.
+
+**평가**: 검색된 문서 내용과 모델 응답의 일치 여부(Faithfulness) 중심으로 검토. 의료 도메인 특성상 문서 범위를 벗어난 응답이 얼마나 줄었는지를 기준으로 삼음.
+
 ### 모델 파인튜닝
 
 - 베이스 모델: EleutherAI/polyglot-ko-12.8b
@@ -54,7 +69,7 @@ sources: [career-wiki-seed.md]
 
 ## 스택
 
-`Python` · `polyglot-ko-12.8b` · `QLoRA` · `HuggingFace` · `OpenAI API (GPT-4o / Batch API)`
+`Python` · `polyglot-ko-12.8b` · `QLoRA` · `HuggingFace` · `OpenAI API (GPT-4o / Batch API)` · `ChromaDB` · `klue/roberta-large`
 
 ## 회고 — 실패 경험
 
