@@ -33,27 +33,27 @@ LLM: 쿼리 응답 전 이 파일을 먼저 읽고 관련 페이지를 찾아 dr
 | [인하공전](entities/education/인하공전.md) | 컴퓨터정보과 전공 심화, GPA 4.36 |
 | [청강대](entities/education/청강대.md) | 게임공학부 전문학사 |
 
-## Projects — 레플리
+## Projects — 회사
 
 | 페이지 | 요약 |
 |--------|------|
-| [projects/reppley-main-api](projects/reppley-main-api.md) | 캐릭터 페르소나 챗봇 API, 5개 기능, 일 70만 건 |
-| [projects/suntok](projects/suntok.md) | 선톡 시스템 — 캐릭터가 먼저 말 걸기, 일 8,000건 |
-| [projects/image-generation](projects/image-generation.md) | 이미지 생성 0→1, 일 3,000건, 5초, 월 24만원 |
-| [projects/long-term-memory](projects/long-term-memory.md) | 장기기억 — RAG 폐기 → LLM+Redis |
-| [projects/preview-chat](projects/preview-chat.md) | 맛보기 채팅 웹 — 가입 마찰 우회 진입점 |
-| [projects/ops-tools](projects/ops-tools.md) | 운영 도구 내재화 — 9개 반복 작업 자동화 |
+| [캐릭터 챗봇 API](projects/company/reppley-main-api.md) | 캐릭터 페르소나 챗봇 API, 5개 기능, 일 70만 건 |
+| [선톡 시스템](projects/company/suntok.md) | 캐릭터가 먼저 말 걸기, 일 8,000건 |
+| [이미지 생성 서비스](projects/company/image-generation.md) | 이미지 생성 0→1, 일 3,000건, 5초, 월 24만원 |
+| [장기기억 시스템](projects/company/long-term-memory.md) | RAG 폐기 → LLM+Redis |
+| [맛보기 채팅 웹](projects/company/preview-chat.md) | 가입 마찰 우회 진입점 |
+| [운영 도구 내재화](projects/company/ops-tools.md) | 9개 반복 작업 자동화 |
+| [정밀의료 AI 문진](projects/company/medical-ai.md) | 외부 과제, QLoRA, 실패 경험 |
 
 ## Projects — 개인
 
 | 페이지 | 요약 |
 |--------|------|
-| [projects/obok](projects/obok.md) | 위로 챗봇 오복이 — 졸업작품, ES→SBERT→ONNX/Faiss→하이브리드 |
-| [projects/et5-typos-corrector](projects/et5-typos-corrector.md) | 맞춤법 교정기 — Hugging Face 다운로드 111,795회 |
-| [projects/kcbert-formal-classifier](projects/kcbert-formal-classifier.md) | 존댓말/반말 분류기 — 다운로드 38,641회 |
-| [projects/nurscheck](projects/nurscheck.md) | 널스체크 — 간호사 번아웃 의사결정 지원 서비스 |
-| [projects/comfyui-api-server](projects/comfyui-api-server.md) | ComfyUI API Server — 이미지 생성 서빙 엔진, GPL-3.0 공개 |
-| [projects/medical-ai](projects/medical-ai.md) | 정밀의료 AI 문진 — 외부 과제, QLoRA, 실패 경험 |
+| [위로 챗봇 오복이](projects/personal/obok.md) | 졸업작품, ES→SBERT→ONNX/Faiss→하이브리드 |
+| [맞춤법 교정기](projects/personal/et5-typos-corrector.md) | Hugging Face 다운로드 111,795회 |
+| [존댓말/반말 분류기](projects/personal/kcbert-formal-classifier.md) | 다운로드 38,641회 |
+| [널스체크](projects/personal/nurscheck.md) | 간호사 번아웃 의사결정 지원 서비스 |
+| [ComfyUI API Server](projects/personal/comfyui-api-server.md) | 이미지 생성 서빙 엔진, GPL-3.0 공개 |
 
 ## Papers
 
