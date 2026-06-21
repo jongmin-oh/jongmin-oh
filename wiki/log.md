@@ -8,6 +8,8 @@ Quick parse: `grep "^## \[" wiki/log.md | tail -10`
 
 ## [2026-06-21] init | Wiki initialized from README.md
 
+## [2026-06-21] update | 운영도구내재화.md — Slack 인터랙션 운영 채널 추가 (이벤트 하트 지급, 사용자/콘텐츠 재재, CS 알림, 불건전 챗봇 필터링), 핵심 맥락에 전담 운영자 부재 + 모바일 대응 배경 추가
+
 Seed pages created: overview.md, timeline.md, entities/reppley.md, entities/indj.md, entities/atommerce.md, entities/likelion.md, papers/bert-emotion-lyrics.md, index.md.
 
 ## [2026-06-21] ingest | career-wiki-seed.md — 오종민 Zero to One 위키
