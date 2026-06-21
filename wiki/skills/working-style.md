@@ -15,7 +15,7 @@ sources: [career-wiki-seed.md]
 
 개발에 그치지 않고 **제품이 굴러가는 데 필요한 일이면 직접 메운다**.
 
-증거: QA 테스트 전담, 공지사항 관리, 이벤트 웹뷰 관리, 이메일 CS 대응, 콘텐츠 검열 등 운영 전반 직접 담당 → 그렇게 직접 부딪힌 페인포인트를 도구·자동화로 해결한 것이 [[projects/ops-tools\|운영 도구 내재화 9건]].
+증거: QA 테스트 전담, 공지사항 관리, 이벤트 웹뷰 관리, 이메일 CS 대응, 콘텐츠 검열 등 운영 전반 직접 담당 → 그렇게 직접 부딪힌 페인포인트를 도구·자동화로 해결한 것이 [[projects/company/운영도구내재화\|운영 도구 내재화 9건]].
 
 > 직접 운영을 담당했기 때문에 **진짜 병목**을 알았다.
 
@@ -25,7 +25,7 @@ sources: [career-wiki-seed.md]
 
 간결함 최우선. **"정말 필요한가"** 를 먼저 묻고, 가장 단순한 가설부터 검증.
 
-증거: [[projects/long-term-memory\|장기기억에서 RAG를 검토 후 폐기]] → LLM+Redis로 단순화.  
+증거: [[projects/company/장기기억시스템\|장기기억에서 RAG를 검토 후 폐기]] → LLM+Redis로 단순화.  
 폐기 이유 4가지: 운영 비용 / 운영 복잡성 / 아키텍처 락인 / 도메인 가설.
 
 ---
@@ -38,9 +38,9 @@ sources: [career-wiki-seed.md]
 
 | 적용 사례 | 방식 |
 |---------|------|
-| [[projects/suntok\|선톡 시스템]] | Lambda(SAM) + SQS |
+| [[projects/company/선톡전송시스템\|선톡 시스템]] | Lambda(SAM) + SQS |
 | 이미지 자동 검열·이벤트 보상 등 | 이벤트 기반 Lambda |
-| [[projects/preview-chat\|맛보기 웹]] · [[projects/nurscheck\|널스체크]] | S3 + CloudFront |
+| [[projects/company/맛보기채팅웹\|맛보기 웹]] · [[projects/personal/널스체크\|널스체크]] | S3 + CloudFront |
 
 단, GPU 추론처럼 서버리스가 불리한 워크로드는 직접 GPU 계약으로 전환 → **워크로드 특성에 맞게 선택**.
 
@@ -60,7 +60,7 @@ sources: [career-wiki-seed.md]
 
 기존 도구의 한계가 명확하면 **직접 만들어 해결**.
 
-증거: [[projects/comfyui-api-server\|ComfyUI API Server]] — ComfyUI(빠르지만 API 없음) ↔ SD WebUI(API 좋지만 느림) 트레이드오프를 동시 해결하는 헤드리스 서버 직접 구현.
+증거: [[projects/personal/ComfyUI-API-서버\|ComfyUI API Server]] — ComfyUI(빠르지만 API 없음) ↔ SD WebUI(API 좋지만 느림) 트레이드오프를 동시 해결하는 헤드리스 서버 직접 구현.
 
 ---
 

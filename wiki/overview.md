@@ -14,7 +14,7 @@ sources: [career-wiki-seed.md]
 
 ## 현재
 
-**AI Co-founder @ [[Reppley]]** (2022.10 – 현재)
+**AI Co-founder @ [[entities/companies/레플리]]** (2022.10 – 현재)
 - 캐릭터 페르소나 챗봇 서비스를 0→1로 설계·구현·운영
 - MAU 3만 · 일 최고 70만 대화 규모 직접 운영
 - TIPS · 예비창업패키지 · 구글 창구 선정
@@ -23,7 +23,7 @@ sources: [career-wiki-seed.md]
 
 **감정 이해 AI의 연속적 심화.**
 
-[[LIKELION]] AI 교육으로 시작 → [[INDJ]]에서 가사 감정 분석으로 음악 추천 피처 개발 → [[atommerce]]에서 감정 위로 챗봇 로니 개발 → [[Reppley]] 공동 창업으로 캐릭터 페르소나 챗봇 서비스 0→1 구축.
+[[entities/education/멋쟁이사자처럼]] AI 교육으로 시작 → [[entities/companies/인디제이]]에서 가사 감정 분석으로 음악 추천 피처 개발 → [[entities/companies/아토머스]]에서 감정 위로 챗봇 로니 개발 → [[entities/companies/레플리]] 공동 창업으로 캐릭터 페르소나 챗봇 서비스 0→1 구축.
 
 세 번의 스타트업 경험 전부 **"AI가 인간의 감정을 이해하는"** 도메인이다. 음악 감정 → 정신건강 위로 → 캐릭터 유대. 이 패턴은 우연이 아니라 일관된 관심의 축적으로 보인다.
 
@@ -52,4 +52,4 @@ sources: [career-wiki-seed.md]
 
 ## 관련 페이지
 
-→ [[timeline]] · [[skills/technical]] · [[skills/working-style]] · [[entities/reppley]]
+→ [[timeline]] · [[skills/technical]] · [[skills/working-style]] · [[entities/companies/레플리]]

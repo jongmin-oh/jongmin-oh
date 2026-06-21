@@ -10,7 +10,7 @@ sources: [career-wiki-seed.md]
 # 레플리 메인 — 캐릭터 페르소나 챗봇 서비스 API
 
 **기간**: 2024.01 – 2026.05  
-**소속**: [[entities/reppley\|Reppley]]  
+**소속**: [[entities/companies/레플리\|Reppley]]  
 **역할**: 설계·구현·운영 전담
 
 ## 개요
@@ -50,4 +50,4 @@ sources: [career-wiki-seed.md]
 
 ## 연관
 
-→ [[projects/long-term-memory\|장기기억 시스템]] · [[projects/suntok\|선톡 시스템]] · [[projects/image-generation\|이미지 생성 서비스]]
+→ [[projects/company/장기기억시스템\|장기기억 시스템]] · [[projects/company/선톡전송시스템\|선톡 시스템]] · [[projects/company/이미지생성서비스\|이미지 생성 서비스]]
