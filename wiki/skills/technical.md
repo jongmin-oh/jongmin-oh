@@ -12,7 +12,7 @@ sources: [career-wiki-seed.md]
 ## 핵심 스택
 
 `Python` · `FastAPI` · `AWS` · `AWS Lambda / SAM` · `React` · `RDBMS` · `Redis`  
-`Stable Diffusion` · `Prompt Engineering` · `SBERT / 임베딩 검색` · `Faiss / ONNX 최적화`
+`Stable Diffusion` · `Prompt Engineering` · `SBERT / 임베딩 검색` · `Faiss / ONNX 최적화` · `RAG / ChromaDB`
 
 ---
 
@@ -43,6 +43,8 @@ sources: [career-wiki-seed.md]
 | Prompt Engineering | 레플리 선톡 (5만 건 직접 검토), 메인 챗봇 |
 | LLM-as-judge | 레플리 장기기억 평가 파이프라인 |
 | QLoRA fine-tuning | 정밀의료 AI (polyglot-ko-12.8b) |
+| RAG (Retrieval-Augmented Generation) | 정밀의료 AI 문진 — ChromaDB + klue/roberta-large, 할루시네이션 방지 목적 |
+| ChromaDB | 정밀의료 AI 벡터 DB |
 
 ## 프론트엔드
 
