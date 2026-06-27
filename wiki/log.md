@@ -14,6 +14,8 @@ Seed pages created: overview.md, timeline.md, entities/reppley.md, entities/indj
 
 ## [2026-06-21] ingest | career-wiki-seed.md — 오종민 Zero to One 위키
 
+## [2026-06-27] update | 캐릭터챗봇API.md — 24/7 운영 & 장애 대응 섹션 추가 (gunicorn 워커 타임아웃, LLM 프로바이더 장애 폴백, 로그 클라이언트 객체 재생성 OOM, ECS 기본 타임아웃 15초). 포트폴리오 강점① "빠름+안정 운영" 근거. 출처: 본인 회고 2026-06-27
+
 사용자가 직접 작성한 커리어 정리 문서 ingest. 레플리 4년 커리어 전체 + 개인 프로젝트.
 
 신규 생성 페이지 (13개):
