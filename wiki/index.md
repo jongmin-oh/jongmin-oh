@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-06-21
+updated: 2026-06-27
 ---
 
 # Wiki Index — 오종민 커리어 위키
@@ -67,7 +67,7 @@ LLM: 쿼리 응답 전 이 파일을 먼저 읽고 관련 페이지를 찾아 dr
 | 페이지 | 요약 |
 |--------|------|
 | [skills/technical](skills/technical.md) | 기술 스킬 — Python, AWS, NLP, SD 등 |
-| [skills/working-style](skills/working-style.md) | 일하는 방식 — 서버리스 우선, 오버엔지니어링 경계, SDD 등 |
+| [skills/working-style](skills/working-style.md) | 일하는 방식 — 서버리스 우선, 오버엔지니어링 경계, SDD, 24시간 B2C 운영 등 |
 
 ## Reflections
 
