@@ -1,7 +1,7 @@
 # Hello! Nice to meet you. 👋
 
 **Jongmin Oh (오종민)** <br>
-a **problem-first** AI Engineer. <br>
+a **problem-first** AI Product Engineer. <br>
 I lead with **0→1 execution** and **fast prototyping** <br>
 turning problems into working products quickly. <br>
 
