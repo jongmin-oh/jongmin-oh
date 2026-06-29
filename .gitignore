@@ -1,5 +1,5 @@
 # Obsidian
 .obsidian/
 JD.md
-output/*
+outputs/*
 agents/custom_coverletter_agent.md
