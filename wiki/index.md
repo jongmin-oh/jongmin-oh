@@ -40,7 +40,7 @@ LLM: 쿼리 응답 전 이 파일을 먼저 읽고 관련 페이지를 찾아 dr
 | [캐릭터 챗봇 API](projects/company/캐릭터챗봇API.md) | 캐릭터 페르소나 챗봇 API, 5개 기능, 일 70만 건 |
 | [선톡 전송 시스템](projects/company/선톡전송시스템.md) | 캐릭터가 먼저 말 걸기, 일 8,000건 |
 | [이미지 생성 서비스](projects/company/이미지생성서비스.md) | 이미지 생성 0→1, 일 3,000건, 5초, 월 24만원 |
-| [장기기억 시스템](projects/company/장기기억시스템.md) | RAG 폐기 → LLM+Redis |
+| [장기기억 시스템](projects/company/장기기억시스템.md) | RAG 폐기 → LLM+Redis → DynamoDB 마이그레이션 |
 | [맛보기 채팅 웹](projects/company/맛보기채팅웹.md) | 가입 마찰 우회 진입점 |
 | [운영 도구 내재화](projects/company/운영도구내재화.md) | 9개 반복 작업 자동화 |
 | [정밀의료 AI 문진](projects/company/정밀의료AI문진.md) | 외부 과제, QLoRA, 실패 경험 |

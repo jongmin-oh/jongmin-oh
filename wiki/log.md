@@ -66,3 +66,8 @@ index.md 업데이트.
 ## [2026-06-29] update | 맛보기채팅웹.md — 디자이너와 Figma 협업 내용 추가
 
 "협업 — 디자이너와 Figma로 소통하며 개발" 섹션 신규 추가. 디자이너가 Figma로 UI/UX 시안을 잡으면 그 시안 기준으로 컴포넌트·레이아웃·인터랙션 구현하며 디테일 맞춰가는 협업 흐름. 의의=단순 풀스택 구현을 넘어 디자인 핸드오프를 읽고 시안대로 프론트 구현하는 협업 역량의 실례. 스택에 Figma(디자인 핸드오프) 추가, 태그 figma·design-collab 추가, updated 2026-06-29 갱신.
+
+## [2026-07-11] update | 장기기억 시스템 — Redis → DynamoDB 마이그레이션
+
+- 채팅방 단위 누적으로 Redis 메모리 한계 → DynamoDB 마이그레이션 사실 추가 (본인 제보).
+- 갱신: 장기기억시스템.md(구현·스택·결과), overview.md, working-style.md(원칙 2), index.md, interview/fulcrum-2차-준비.md(why-chain 2행 추가).

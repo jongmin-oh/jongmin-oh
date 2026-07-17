@@ -1,5 +1,6 @@
 # Obsidian
 .obsidian/
+interview/*
 JD.md
 outputs/*
 agents/custom_coverletter_agent.md
