@@ -64,3 +64,7 @@ sources: [career-wiki-seed.md]
 ## 연관
 
 → [[projects/company/장기기억시스템\|장기기억 시스템]] · [[projects/company/선톡전송시스템\|선톡 시스템]] · [[projects/company/이미지생성서비스\|이미지 생성 서비스]]
+
+## 이어지는 실험
+
+운영하며 하고 싶었으나 회사 서비스의 제약으로 못 한 계획들 — 특히 **한 캐릭터에 깊이 집중하는 설계**(과금 유저가 다수 캐릭터보다 한 캐릭터와의 애착을 중시했다는 관찰)는 개인 프로젝트 [[projects/personal/Nightly]]에서 이어서 구현 중이다.

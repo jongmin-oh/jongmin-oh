@@ -44,6 +44,7 @@ LLM: 쿼리 응답 전 이 파일을 먼저 읽고 관련 페이지를 찾아 dr
 | [맛보기 채팅 웹](projects/company/맛보기채팅웹.md) | 가입 마찰 우회 진입점 |
 | [운영 도구 내재화](projects/company/운영도구내재화.md) | 9개 반복 작업 자동화 |
 | [정밀의료 AI 문진](projects/company/정밀의료AI문진.md) | 외부 과제, QLoRA, 실패 경험 |
+| [AI 소설 생성 서비스](projects/company/AI소설생성API.md) | 웹소설 연재 생성 0→1, 모델 선택을 실험으로 결정 (구현 세부 비공개) |
 
 ## Projects — 개인
 
@@ -54,7 +55,7 @@ LLM: 쿼리 응답 전 이 파일을 먼저 읽고 관련 페이지를 찾아 dr
 | [존댓말/반말 분류기](projects/personal/존댓말반말분류기.md) | 다운로드 38,641회 |
 | [널스체크](projects/personal/널스체크.md) | 간호사 번아웃 의사결정 지원 서비스 |
 | [ComfyUI API 서버](projects/personal/ComfyUI-API-서버.md) | 이미지 생성 서빙 엔진, GPL-3.0 공개 |
-| [Nightly](projects/personal/Nightly.md) | LangGraph 에이전트 + Neo4j GraphRAG + ReAct 검색 서브에이전트, Lambda 서버리스 |
+| [Nightly](projects/personal/Nightly.md) | 한 캐릭터에 집중한 대화 에이전트 — 레플리에서 못 한 계획의 실행판, 온톨로지 + GraphRAG |
 
 ## Papers
 

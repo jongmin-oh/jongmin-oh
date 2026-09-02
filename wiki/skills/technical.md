@@ -42,7 +42,9 @@ sources: [career-wiki-seed.md]
 | 하이브리드 검색 (BM25 + Dense, RRF) | 오복이 v4.0 |
 | Stable Diffusion / ComfyUI | 레플리 이미지 생성 서비스 |
 | Prompt Engineering | 레플리 선톡 (5만 건 직접 검토), 메인 챗봇 |
-| LLM-as-judge | 레플리 장기기억 평가 파이프라인 |
+| LLM-as-judge | 레플리 장기기억 평가 파이프라인, AI 소설 생성 서비스 루브릭 채점 |
+| 장문 창작 프롬프트 설계 | [[projects/company/AI소설생성API]] — 웹소설 회차 생성 |
+| 모델 비교 실험 | AI 소설 생성 서비스 — 동일조건 A/B, 결과 예측 가능성으로 결론 |
 | QLoRA fine-tuning | 정밀의료 AI (polyglot-ko-12.8b) |
 | RAG (Retrieval-Augmented Generation) | 정밀의료 AI 문진 — ChromaDB + klue/roberta-large, 할루시네이션 방지 목적 |
 | ChromaDB | 정밀의료 AI 벡터 DB |
@@ -51,14 +53,14 @@ sources: [career-wiki-seed.md]
 
 | 기술 | 증거 |
 |------|------|
-| LangGraph (StateGraph, ToolNode, tools_condition, add_messages) | [[projects/personal/Nightly]] — 5노드 그래프, 조건부 엣지 |
-| ReAct 루프 (직접 구현) | Nightly — 검색 전용 서브에이전트, 스텝 상한 4 |
-| Tool calling | Nightly — 지식 그래프 조회 2종 + 날씨 API |
-| GraphRAG (Neo4j / Cypher) | Nightly — Topic←Fact 2계층, 언급·의미관계 엣지 |
-| Langfuse (LLM 관측·세션 트레이싱) | Nightly — 방 단위 세션, 람다 flush 강제 |
-| OpenRouter (프로바이더 라우팅·폴백) | Nightly — Novita/Friendli 순서 지정 |
-| 프롬프트 캐시 친화 설계 | Nightly(고정부 prefix 배치), [[projects/company/캐릭터챗봇API]](건당 30% 절감) |
-| 상태 추출 파이프라인 | Nightly — 50필드 스키마, 4턴 주기, 추출 전용 모델 분리 |
+| LangGraph | [[projects/personal/Nightly]] — 조건부 엣지 기반 대화 그래프 |
+| ReAct 루프 (직접 구현) | Nightly — 검색 전용 서브에이전트 |
+| Tool calling | Nightly — 지식 그래프 조회, 외부 API |
+| GraphRAG (Neo4j) | Nightly — 사실 단위 검색, 관계 엣지 |
+| LLM 관측·세션 트레이싱 (Langfuse) | Nightly |
+| 프로바이더 라우팅·폴백 (OpenRouter) | Nightly |
+| 프롬프트 캐시 친화 설계 | Nightly, [[projects/company/캐릭터챗봇API]](건당 30% 절감) |
+| 상태 추출 파이프라인 | Nightly — 대화에서 상대 정보 추출, 전용 모델 분리 |
 
 ## 프론트엔드
 
