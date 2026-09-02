@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-06-27
+updated: 2026-09-02
 ---
 
 # Wiki Index — 오종민 커리어 위키
@@ -54,6 +54,7 @@ LLM: 쿼리 응답 전 이 파일을 먼저 읽고 관련 페이지를 찾아 dr
 | [존댓말/반말 분류기](projects/personal/존댓말반말분류기.md) | 다운로드 38,641회 |
 | [널스체크](projects/personal/널스체크.md) | 간호사 번아웃 의사결정 지원 서비스 |
 | [ComfyUI API 서버](projects/personal/ComfyUI-API-서버.md) | 이미지 생성 서빙 엔진, GPL-3.0 공개 |
+| [Nightly](projects/personal/Nightly.md) | LangGraph 에이전트 + Neo4j GraphRAG + ReAct 검색 서브에이전트, Lambda 서버리스 |
 
 ## Papers
 

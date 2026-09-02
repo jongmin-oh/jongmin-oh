@@ -3,7 +3,7 @@ title: 일하는 방식
 type: skill
 tags: [working-style, philosophy, serverless, anti-overengineering, SDD, B2C-ops]
 created: 2026-06-21
-updated: 2026-06-27
+updated: 2026-09-02
 sources: [career-wiki-seed.md]
 ---
 
@@ -105,7 +105,8 @@ SDD 흐름:
 
 흘려들은 지식은 끝내 내 것이 되지 않는다고 본다. 새로운 방식이 보이면 지금 하는 프로젝트에 직접 적용해 스킬로 굳힌다.
 
-증거: SDD를 한 프로젝트에 몰아 적용해 체화. React 미경험 → AI 코딩 도구로 맛보기 웹 직접 구현.
+증거: SDD를 한 프로젝트에 몰아 적용해 체화. React 미경험 → AI 코딩 도구로 맛보기 웹 직접 구현.  
+2026.08 — LangGraph·Neo4j·Langfuse 미경험 상태에서 [[projects/personal/Nightly]]를 시작해, 튜토리얼이 아니라 **람다에 배포되는 에이전트**로 밀어붙였다. 원자 카운터·멱등 처리·관측 flush 같은 문제를 직접 밟으며 익힌 방식.
 
 ---
 

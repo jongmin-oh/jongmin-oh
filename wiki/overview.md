@@ -3,7 +3,7 @@ title: Career Overview — Jongmin Oh
 type: overview
 tags: [career, AI, engineering, entrepreneurship, chatbot]
 created: 2026-06-21
-updated: 2026-06-27
+updated: 2026-09-02
 sources: [career-wiki-seed.md]
 ---
 
@@ -41,6 +41,7 @@ sources: [career-wiki-seed.md]
 | 자동화 본능 | 반복 운영 업무를 모두 셀프서비스·자동화로 전환 |
 | 오버엔지니어링 경계 | RAG 폐기하고 LLM+KV로 단순화(Redis → 규모 증가 후 DynamoDB 마이그레이션), 서버리스 우선 설계 |
 | 오픈소스 기여 | Hugging Face 모델 2종, 누적 다운로드 150,436회 |
+| 새 기술을 배포까지 밀어붙임 | LangGraph·Neo4j GraphRAG 미경험 → 서버리스로 배포되는 에이전트 구현 (→ [[projects/personal/Nightly]]) |
 | 트레이드오프 직접 해결 | ComfyUI + SD WebUI 트레이드오프 → 직접 서빙 엔진 제작 |
 
 ## 주요 지표

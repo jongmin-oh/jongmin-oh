@@ -1,9 +1,9 @@
 ---
 title: 기술 스킬
 type: skill
-tags: [skills, python, AWS, fastapi, serverless, NLP, stable-diffusion]
+tags: [skills, python, AWS, fastapi, serverless, NLP, stable-diffusion, langgraph, agent, neo4j, graphrag]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-09-02
 sources: [career-wiki-seed.md]
 ---
 
@@ -12,7 +12,8 @@ sources: [career-wiki-seed.md]
 ## 핵심 스택
 
 `Python` · `FastAPI` · `AWS` · `AWS Lambda / SAM` · `React` · `RDBMS` · `Redis`  
-`Stable Diffusion` · `Prompt Engineering` · `SBERT / 임베딩 검색` · `Faiss / ONNX 최적화` · `RAG / ChromaDB`
+`Stable Diffusion` · `Prompt Engineering` · `SBERT / 임베딩 검색` · `Faiss / ONNX 최적화` · `RAG / ChromaDB`  
+`LangGraph / LangChain` · `Neo4j / GraphRAG` · `Langfuse` · `OpenRouter`
 
 ---
 
@@ -46,6 +47,19 @@ sources: [career-wiki-seed.md]
 | RAG (Retrieval-Augmented Generation) | 정밀의료 AI 문진 — ChromaDB + klue/roberta-large, 할루시네이션 방지 목적 |
 | ChromaDB | 정밀의료 AI 벡터 DB |
 
+## 에이전트 / LLM 오케스트레이션
+
+| 기술 | 증거 |
+|------|------|
+| LangGraph (StateGraph, ToolNode, tools_condition, add_messages) | [[projects/personal/Nightly]] — 5노드 그래프, 조건부 엣지 |
+| ReAct 루프 (직접 구현) | Nightly — 검색 전용 서브에이전트, 스텝 상한 4 |
+| Tool calling | Nightly — 지식 그래프 조회 2종 + 날씨 API |
+| GraphRAG (Neo4j / Cypher) | Nightly — Topic←Fact 2계층, 언급·의미관계 엣지 |
+| Langfuse (LLM 관측·세션 트레이싱) | Nightly — 방 단위 세션, 람다 flush 강제 |
+| OpenRouter (프로바이더 라우팅·폴백) | Nightly — Novita/Friendli 순서 지정 |
+| 프롬프트 캐시 친화 설계 | Nightly(고정부 prefix 배치), [[projects/company/캐릭터챗봇API]](건당 30% 절감) |
+| 상태 추출 파이프라인 | Nightly — 50필드 스키마, 4턴 주기, 추출 전용 모델 분리 |
+
 ## 프론트엔드
 
 | 기술 | 숙련도 | 증거 |
@@ -60,6 +74,9 @@ sources: [career-wiki-seed.md]
 | 기술 | 증거 |
 |------|------|
 | Docker (CUDA) | ComfyUI API Server |
+| AWS SAM (arm64 Lambda) | Nightly, 선톡 시스템 |
+| Mangum (ASGI → Lambda) | Nightly |
+| Neo4j | Nightly 지식 그래프 |
 | AWS Route 53 | 맛보기 채팅 웹 |
 | Appium | 앱 테스트 자동화 |
 | Elasticsearch | 오복이 v1.0 |

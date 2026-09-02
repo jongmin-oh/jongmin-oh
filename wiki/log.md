@@ -71,3 +71,15 @@ index.md 업데이트.
 
 - 채팅방 단위 누적으로 Redis 메모리 한계 → DynamoDB 마이그레이션 사실 추가 (본인 제보).
 - 갱신: 장기기억시스템.md(구현·스택·결과), overview.md, working-style.md(원칙 2), index.md, interview/fulcrum-2차-준비.md(why-chain 2행 추가).
+
+## [2026-09-02] ingest | nightly/ 저장소 → projects/personal/Nightly.md 신규 생성
+
+별도 저장소 `nightly/`(2026.08.09 시작, 커밋 67건)의 코드를 직접 읽어 프로젝트 페이지 신설. 텔레그램 페르소나 대화 봇으로, 위키에 처음 등장하는 기술 축이 여럿이다 — LangGraph StateGraph(5노드·조건부 엣지·ToolNode), 검색 전용 ReAct 서브에이전트(페르소나 모델과 분리해 말투 오염·프롬프트 캐시 붕괴 방지), Neo4j GraphRAG(Topic←Fact 2계층, 통짜 문서 1,900자 → Fact 단위 선별), Langfuse 관측, OpenRouter 프로바이더 폴백, Mangum+SAM arm64 서버리스.
+
+기록할 만한 판단들: ①할루시네이션을 '더 정확한 검색'이 아니라 'MIN_FACTS 하한으로 근거를 넉넉히'로 뒤집어 푼 것 ②상대 상태 50필드를 enum 정규화 없이 문자열로 둔 것(프롬프트에서 더 낫고 매핑 로직이 안 붙음) ③람다 특성에서 오는 문제 4종(턴 카운트 불가→DynamoDB 원자 카운터, Langfuse 스팬 유실→flush 강제, 텔레그램 재전송→멱등 처리, 정렬 가능 ID 직접 설계) ④셀프체크에서 허브 3홉 도달성까지 검증(도달 못 하는 Topic = 검색이 영원히 못 닿는 섬).
+
+[[projects/company/장기기억시스템]]과의 대비를 의의에 명시 — 거기서는 RAG를 걷어내고 기억 구조를 택했고, 여기서는 GraphRAG를 넣되 Fact 단위 + 에이전트 선별로 재설계. 같은 문제의 반대편 실험.
+
+갱신: index.md(개인 프로젝트 행 추가), timeline.md(2026.08–현재 + 개인 프로젝트 타임라인), skills/technical.md(핵심 스택 줄 + '에이전트 / LLM 오케스트레이션' 표 신설 8행 + 인프라 3행), skills/working-style.md(학습 태도 증거 보강), overview.md(핵심 특징 행 추가).
+
+※ 주의: 이 페이지는 아키텍처·엔지니어링 판단만 담았다. `nightly/wiki/`의 인물·관계 문서는 개인 신상 내용이라 커리어 위키로 옮기지 않았다.

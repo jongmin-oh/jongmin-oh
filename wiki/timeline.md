@@ -3,7 +3,7 @@ title: Career Timeline
 type: timeline
 tags: [career, timeline, chronology]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-09-02
 sources: [career-wiki-seed.md]
 ---
 
@@ -23,6 +23,7 @@ sources: [career-wiki-seed.md]
 | 2023년 | 외부 과제 수주 | 강원정보문화산업진흥원 | [[projects/company/정밀의료AI문진\|정밀의료 AI 문진 솔루션]] |
 | 2024.01 – 2026.05 | 메인 챗봇 API 집중 개발 | Reppley | [[projects/company/캐릭터챗봇API\|캐릭터 페르소나 챗봇 API]] |
 | 2025.01.15 | 특허 등록 | KIPO | 제 10-2757044 호 |
+| 2026.08 – 현재 | 개인 프로젝트 진행 중 | 개인 | [[projects/personal/Nightly\|Nightly]] — LangGraph 에이전트 · Neo4j GraphRAG |
 
 ## 개인 프로젝트 타임라인
 
@@ -37,3 +38,4 @@ sources: [career-wiki-seed.md]
 | — | [[projects/personal/존댓말반말분류기\|존댓말/반말 분류기]] 공개 | 누적 다운로드 38,641회 |
 | — | [[projects/personal/널스체크\|널스체크]] 출시 | https://번아웃.com/ |
 | — | [[projects/personal/ComfyUI-API-서버\|ComfyUI API Server]] 공개 | GPL-3.0 |
+| 2026.08.09– | [[projects/personal/Nightly\|Nightly]] 개발 시작 | LangGraph·Neo4j·Langfuse, 커밋 67건 |
