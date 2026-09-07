@@ -3,7 +3,7 @@ title: 기술 스킬
 type: skill
 tags: [skills, python, AWS, fastapi, serverless, NLP, stable-diffusion, langgraph, agent, neo4j, graphrag]
 created: 2026-06-21
-updated: 2026-09-02
+updated: 2026-09-07
 sources: [career-wiki-seed.md]
 ---
 
@@ -44,6 +44,7 @@ sources: [career-wiki-seed.md]
 | Prompt Engineering | 레플리 선톡 (5만 건 직접 검토), 메인 챗봇 |
 | LLM-as-judge | 레플리 장기기억 평가 파이프라인, AI 소설 생성 서비스 루브릭 채점 |
 | 장문 창작 프롬프트 설계 | [[projects/company/AI소설생성API]] — 웹소설 회차 생성 |
+| 프롬프트 A/B 테스트 | [[projects/company/캐릭터챗봇API]] — 실트래픽 분할 서빙, 대화 지속 턴 수 지표로 45% 향상 |
 | 모델 비교 실험 | AI 소설 생성 서비스 — 동일조건 A/B, 결과 예측 가능성으로 결론 |
 | QLoRA fine-tuning | 정밀의료 AI (polyglot-ko-12.8b) |
 | RAG (Retrieval-Augmented Generation) | 정밀의료 AI 문진 — ChromaDB + klue/roberta-large, 할루시네이션 방지 목적 |

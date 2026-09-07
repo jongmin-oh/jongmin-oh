@@ -3,7 +3,7 @@ title: Career Overview — Jongmin Oh
 type: overview
 tags: [career, AI, engineering, entrepreneurship, chatbot]
 created: 2026-06-21
-updated: 2026-09-02
+updated: 2026-09-07
 sources: [career-wiki-seed.md]
 ---
 
@@ -42,6 +42,7 @@ sources: [career-wiki-seed.md]
 | 오버엔지니어링 경계 | RAG 폐기하고 LLM+KV로 단순화(Redis → 규모 증가 후 DynamoDB 마이그레이션), 서버리스 우선 설계 |
 | 오픈소스 기여 | Hugging Face 모델 2종, 누적 다운로드 150,436회 |
 | 새 기술을 배포까지 밀어붙임 | 미경험 영역(에이전트·지식 그래프)을 실제 배포되는 코드까지 (→ [[projects/personal/Nightly]]) |
+| 프롬프트 A/B 테스트 및 정량 검증 | 주관적 논쟁 대신 트래픽 분할 실험 구축, 대화 지속 턴 수 45% 향상 (→ [[projects/company/캐릭터챗봇API]]) |
 | 회사에서 못 한 가설을 개인 프로젝트로 검증 | 과금 유저가 중시한 '한 캐릭터와의 애착'을 개인 프로젝트에서 끝까지 구현 (→ [[projects/personal/Nightly]]) |
 | 모델 선택을 실험으로 결정 | 모델 후보 동일조건 비교 — LLM 심사위원 무변별 → 직접 정독 재채점, 결론은 품질이 아니라 결과의 예측 가능성 (→ [[projects/company/AI소설생성API]]) |
 | 트레이드오프 직접 해결 | ComfyUI + SD WebUI 트레이드오프 → 직접 서빙 엔진 제작 |
@@ -49,6 +50,7 @@ sources: [career-wiki-seed.md]
 ## 주요 지표
 
 - MAU 3만 · 일 최고 대화 70만 건 (레플리)
+- 프롬프트 A/B 테스트: 대화 지속 턴 수 45% 향상 (유료 사용자 기준, 4회 반복 실험)
 - Hugging Face 모델 다운로드 합산 15만+ 회
 - 특허 1건 (AI 기반 챗봇 학습 데이터 생성 방법, 등록 2025.01)
 - 이미지 생성 인프라: 일 3,000건 · 5초 이내 · 월 24만원 (SaaS 대비 5배↓)

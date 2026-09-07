@@ -2,5 +2,6 @@
 .obsidian/
 interview/*
 JD.md
+assets
 outputs/*
 agents/custom_coverletter_agent.md
