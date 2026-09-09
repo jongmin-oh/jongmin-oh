@@ -1,10 +1,10 @@
 ---
 title: 기술 스킬
 type: skill
-tags: [skills, python, AWS, fastapi, serverless, NLP, stable-diffusion, langgraph, agent, neo4j, graphrag]
+tags: [skills, python, AWS, fastapi, serverless, NLP, stable-diffusion, langgraph, agent, neo4j, graphrag, analytics, ab-test]
 created: 2026-06-21
-updated: 2026-09-07
-sources: [career-wiki-seed.md]
+updated: 2026-09-09
+sources: [career-wiki-seed.md, 본인 구술 2026-09-09]
 ---
 
 # 기술 스킬
@@ -45,7 +45,7 @@ sources: [career-wiki-seed.md]
 | 평가 지표 정의 | [[projects/company/선톡전송시스템]] — 정답 없는 생성 결과를 기능의 본질 목표(리텐션)로 환원해 '푸시 클릭률' 단일 지표로 정의, 프롬프트 지침 개정 |
 | LLM-as-judge | 레플리 장기기억 평가 파이프라인, AI 소설 생성 서비스 루브릭 채점, 선톡 자동 채점(5만 건 수작업 검수 대체) |
 | 장문 창작 프롬프트 설계 | [[projects/company/AI소설생성API]] — 웹소설 회차 생성 |
-| 프롬프트 A/B 테스트 | [[projects/company/캐릭터챗봇API]] — 실트래픽 분할 서빙, 대화 지속 턴 수 지표로 45% 향상 |
+| 프롬프트 A/B 테스트 | [[projects/company/캐릭터챗봇API]] — Statsig 기반 실트래픽 분할 서빙, 대화 지속 턴 수 지표로 45% 향상 |
 | 모델 비교 실험 | AI 소설 생성 서비스 — 동일조건 A/B, 결과 예측 가능성으로 결론 |
 | QLoRA fine-tuning | 정밀의료 AI (polyglot-ko-12.8b) |
 | RAG (Retrieval-Augmented Generation) | 정밀의료 AI 문진 — ChromaDB + klue/roberta-large, 할루시네이션 방지 목적 |
@@ -84,6 +84,18 @@ sources: [career-wiki-seed.md]
 | AWS Route 53 | 맛보기 채팅 웹 |
 | Appium | 앱 테스트 자동화 |
 | Elasticsearch | 오복이 v1.0 |
+
+## 분석 · 실험
+
+| 도구 | 숙련도 | 증거 |
+|------|--------|------|
+| Statsig | **직접 구축** | [[projects/company/캐릭터챗봇API]] — 실험 플랫폼을 밑바닥부터 붙여 트래픽 분할 서빙 + 모니터링까지 구성 |
+| Google Analytics (GA) | 지표 확인 | [[projects/company/선톡전송시스템]] — 푸시 메시지 클릭률 확인 |
+| Mixpanel | 지표 확인 | 제품 지표 조회 용도 |
+| SQL | 직접 조회 | 어드민 구축 이전 유저·재화 조회를 직접 쿼리로 처리 (→ [[projects/company/운영도구내재화]]) |
+| 고객 리서치 | 직접 수행 | 이메일 CS 직접 담당·설문 운영·고객 인터뷰 1회 진행 |
+
+> 인과 추론에 대한 관점은 [[reflections/그로스해킹과-제품관점의-전환]] '측정에서 인과로' 참조 — 전후 비교와 통제 실험을 구분한다.
 
 ## 데이터
 

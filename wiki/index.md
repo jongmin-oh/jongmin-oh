@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-09-08
+updated: 2026-09-09
 ---
 
 # Wiki Index — 오종민 커리어 위키
@@ -37,8 +37,8 @@ LLM: 쿼리 응답 전 이 파일을 먼저 읽고 관련 페이지를 찾아 dr
 
 | 페이지 | 요약 |
 |--------|------|
-| [캐릭터 챗봇 API](projects/company/캐릭터챗봇API.md) | 캐릭터 페르소나 챗봇 API, 5개 기능, 일 70만 건, 프롬프트 A/B 테스트(턴 수 +45%) |
-| [선톡 전송 시스템](projects/company/선톡전송시스템.md) | 캐릭터가 먼저 말 걸기, 일 8,000건 · 평가 지표(푸시 클릭률) 정의 + 자동 채점 |
+| [캐릭터 챗봇 API](projects/company/캐릭터챗봇API.md) | 캐릭터 페르소나 챗봇 API, 5개 기능, 일 70만 건, Statsig 기반 프롬프트 A/B 테스트(턴 수 +45%) |
+| [선톡 전송 시스템](projects/company/선톡전송시스템.md) | 캐릭터가 먼저 말 걸기, 일 8,000건 · 평가 지표(푸시 클릭률·GA) 정의 + 자동 채점 · 클릭률 2배(대조군 부재로 인과 미확정) |
 | [이미지 생성 서비스](projects/company/이미지생성서비스.md) | 이미지 생성 0→1, 일 3,000건, 5초, 월 24만원 |
 | [장기기억 시스템](projects/company/장기기억시스템.md) | RAG 폐기 → LLM+Redis → DynamoDB 마이그레이션 |
 | [맛보기 채팅 웹](projects/company/맛보기채팅웹.md) | 가입 마찰 우회 진입점 |
@@ -68,14 +68,14 @@ LLM: 쿼리 응답 전 이 파일을 먼저 읽고 관련 페이지를 찾아 dr
 
 | 페이지 | 요약 |
 |--------|------|
-| [skills/technical](skills/technical.md) | 기술 스킬 — Python, AWS, NLP, SD 등 |
+| [skills/technical](skills/technical.md) | 기술 스킬 — Python, AWS, NLP, SD, 분석·실험 도구(Statsig·GA·Mixpanel·SQL) |
 | [skills/working-style](skills/working-style.md) | 일하는 방식 — 서버리스 우선, 오버엔지니어링 경계, SDD, 24시간 B2C 운영 등 |
 
 ## Reflections
 
 | 페이지 | 요약 |
 |--------|------|
-| [그로스해킹과 제품 관점의 전환](reflections/그로스해킹과-제품관점의-전환.md) | 토스 이승건 PO 세션 — AARRR·PMF·리텐션 플래토, 개발자 관점에서 제품 관점으로의 전환 |
+| [그로스해킹과 제품 관점의 전환](reflections/그로스해킹과-제품관점의-전환.md) | 토스 이승건 PO 세션 — AARRR·PMF·리텐션 플래토, 개발자 관점에서 제품 관점으로의 전환 · 측정 성숙도 3단계(기준 없음 → 지표 정의 → 통제 실험) |
 | [초기 스타트업 시행착오](reflections/초기-스타트업-시행착오.md) | 비싸게 배운 시행착오 — 완벽주의가 타이밍을 죽인다(1·2·3), 잘못된 채용의 진짜 비용(4), 만들기가 만병통치약(5), 쉬운 것이 중요한 것을 밀어낸다(6). 근본 진단: 문제가 아니라 솔루션에서 시작(solution-first) |
 | [개발을 잘한다는 것](reflections/개발을-잘한다는-것.md) | AI 시대의 재정의 — 단순 설계(1)·문서 같은 코드(2)·AI가 이해하는 구조(3)·꼼꼼한 테스트(4)·실수의 경험화(5). "프로그램 잘 짜는 능력"은 더 이상 기준이 아니다 |
 

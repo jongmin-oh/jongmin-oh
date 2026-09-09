@@ -3,8 +3,8 @@ title: Career Overview — Jongmin Oh
 type: overview
 tags: [career, AI, engineering, entrepreneurship, chatbot]
 created: 2026-06-21
-updated: 2026-09-08
-sources: [career-wiki-seed.md]
+updated: 2026-09-09
+sources: [career-wiki-seed.md, 본인 구술 2026-09-09]
 ---
 
 # 오종민 (Jongmin Oh) — 커리어 개요
@@ -42,7 +42,8 @@ sources: [career-wiki-seed.md]
 | 오버엔지니어링 경계 | RAG 폐기하고 LLM+KV로 단순화(Redis → 규모 증가 후 DynamoDB 마이그레이션), 서버리스 우선 설계 |
 | 오픈소스 기여 | Hugging Face 모델 2종, 누적 다운로드 150,436회 |
 | 새 기술을 배포까지 밀어붙임 | 미경험 영역(에이전트·지식 그래프)을 실제 배포되는 코드까지 (→ [[projects/personal/Nightly]]) |
-| 프롬프트 A/B 테스트 및 정량 검증 | 주관적 논쟁 대신 트래픽 분할 실험 구축, 대화 지속 턴 수 45% 향상 (→ [[projects/company/캐릭터챗봇API]]) |
+| 프롬프트 A/B 테스트 및 정량 검증 | 주관적 논쟁 대신 Statsig로 트래픽 분할 실험 환경을 직접 구축, 대화 지속 턴 수 45% 향상 (→ [[projects/company/캐릭터챗봇API]]) |
+| 전후 비교와 통제 실험을 구분 | 선톡 클릭률이 2배 올랐으나 대조군이 없다는 이유로 자기 성과로 주장하지 않음 — 그 자각이 A/B 환경 구축의 동기 (→ [[reflections/그로스해킹과-제품관점의-전환]]) |
 | 평가 기준을 먼저 정의 | 정답 없는 생성 결과를 기능의 본질 목표로 환원해 단일 지표로 정의하고 자동 채점화 — 선톡: 푸시 클릭률 (→ [[projects/company/선톡전송시스템]]) |
 | 회사에서 못 한 가설을 개인 프로젝트로 검증 | 과금 유저가 중시한 '한 캐릭터와의 애착'을 개인 프로젝트에서 끝까지 구현 (→ [[projects/personal/Nightly]]) |
 | 모델 선택을 실험으로 결정 | 모델 후보 동일조건 비교 — LLM 심사위원 무변별 → 직접 정독 재채점, 결론은 품질이 아니라 결과의 예측 가능성 (→ [[projects/company/AI소설생성API]]) |
@@ -55,7 +56,8 @@ sources: [career-wiki-seed.md]
 - Hugging Face 모델 다운로드 합산 15만+ 회
 - 특허 1건 (AI 기반 챗봇 학습 데이터 생성 방법, 등록 2025.01)
 - 이미지 생성 인프라: 일 3,000건 · 5초 이내 · 월 24만원 (SaaS 대비 5배↓)
-- 선톡 시스템: 일 8,000건 안정 운영, 평가 지표 정의(푸시 클릭률) + 자동 채점으로 5만 건 수작업 검수 대체
+- 선톡 시스템: 일 8,000건 안정 운영, 평가 지표 정의(푸시 클릭률·GA) + 자동 채점으로 5만 건 수작업 검수 대체 — 클릭률 약 2배 상승했으나 대조군 부재로 인과는 미확정
+- 분석·실험 도구: Statsig(직접 구축) · GA · Mixpanel · SQL, 고객 리서치는 CS·설문 직접 담당 + 인터뷰 1회
 
 ## 연락처 / 외부
 
