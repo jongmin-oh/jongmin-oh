@@ -70,7 +70,7 @@ LLM: 쿼리 응답 전 이 파일을 먼저 읽고 관련 페이지를 찾아 dr
 | 페이지 | 요약 |
 |--------|------|
 | [skills/technical](skills/technical.md) | 기술 스킬 — Python, AWS, NLP, SD, 분석·실험 도구(Statsig·GA·Mixpanel·SQL) |
-| [skills/working-style](skills/working-style.md) | 일하는 방식 — 서버리스 우선, 오버엔지니어링 경계, SDD, 24시간 B2C 운영 등 |
+| [skills/working-style](skills/working-style.md) | 일하는 방식 — 서버리스 우선(고정비=리스크 / 아낀 공수를 문제 정의로 재배치), 오버엔지니어링 경계, SDD, 24시간 B2C 운영 등 |
 
 ## Reflections
 
