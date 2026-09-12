@@ -3,8 +3,8 @@ title: 기술 스킬
 type: skill
 tags: [skills, python, AWS, fastapi, serverless, NLP, stable-diffusion, langgraph, agent, neo4j, graphrag, analytics, ab-test]
 created: 2026-06-21
-updated: 2026-09-09
-sources: [career-wiki-seed.md, 본인 구술 2026-09-09]
+updated: 2026-09-12
+sources: [career-wiki-seed.md, 본인 구술 2026-09-09, 본인 구술 2026-09-12(비용 절감)]
 ---
 
 # 기술 스킬
@@ -62,6 +62,7 @@ sources: [career-wiki-seed.md, 본인 구술 2026-09-09]
 | LLM 관측·세션 트레이싱 (Langfuse) | Nightly |
 | 프로바이더 라우팅·폴백 (OpenRouter) | Nightly |
 | 프롬프트 캐시 친화 설계 | Nightly, [[projects/company/캐릭터챗봇API]](건당 30% 절감) |
+| Gemini 컨텍스트 캐싱 | 레플리 — 반복 시스템 프롬프트·캐릭터 설정 캐시 히트로 입력 토큰 비용 절감 |
 | 상태 추출 파이프라인 | Nightly — 대화에서 상대 정보 추출, 전용 모델 분리 |
 
 ## 프론트엔드
@@ -83,7 +84,10 @@ sources: [career-wiki-seed.md, 본인 구술 2026-09-09]
 | Neo4j | Nightly 지식 그래프 |
 | AWS Route 53 | 맛보기 채팅 웹 |
 | Appium | 앱 테스트 자동화 |
-| Elasticsearch | 오복이 v1.0 |
+| Elasticsearch | 오복이 v1.0, 레플리 로그 수집(→ Firehose로 전환) |
+| AWS Kinesis Firehose | 레플리 로그 수집 파이프라인 전환 — 검색 클러스터 고정비 제거 (→ [[reflections/비용을-줄이는-사람]]) |
+| AWS Billing 모니터링 | 정기 점검 루틴 — 비용 절감 항목 발굴의 출발점 (→ [[reflections/비용을-줄이는-사람]]) |
+| WebP 이미지 전환 | 서비스 이미지 전량 전환 — CDN 전송량·비용 절감 |
 
 ## 분석 · 실험
 
