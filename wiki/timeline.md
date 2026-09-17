@@ -19,6 +19,7 @@ sources: [career-wiki-seed.md]
 | 2022.07.14 | 논문 발표 | 한국컴퓨터정보학회 | [[papers/가사감정분석\|가사 감정 분석 논문]] |
 | 2022.10 – 현재 | AI Co-founder | [[entities/companies/레플리\|Reppley]] | 백엔드·AI 개발 |
 | 2022.11 | 졸업작품 출시 | 개인 | [[projects/personal/오복이\|위로 챗봇 오복이]] |
+| 레플리 초기 | 콜드스타트 seeding | Reppley | '둘러보기'에 캐릭터 30개+·SNS 피드에 게시물 350개(팔로워 450) 직접 채움 (→ [[reflections/확장되지-않는-일을-하는-사람]]) |
 | 2022.11.25 | 특허 출원 | 개인 | AI 기반 챗봇 학습 데이터 생성 방법 |
 | 2023년 | 외부 과제 수주 | 강원정보문화산업진흥원 | [[projects/company/정밀의료AI문진\|정밀의료 AI 문진 솔루션]] |
 | 2024.01 – 2026.05 | 메인 챗봇 API 집중 개발 | Reppley | [[projects/company/캐릭터챗봇API\|캐릭터 페르소나 챗봇 API]] |
