@@ -3,8 +3,8 @@ title: 기술 스킬
 type: skill
 tags: [skills, python, AWS, fastapi, serverless, NLP, stable-diffusion, langgraph, agent, neo4j, graphrag, analytics, ab-test]
 created: 2026-06-21
-updated: 2026-09-12
-sources: [career-wiki-seed.md, 본인 구술 2026-09-09, 본인 구술 2026-09-12(비용 절감)]
+updated: 2026-09-27
+sources: [career-wiki-seed.md, 본인 구술 2026-09-09, 본인 구술 2026-09-12(비용 절감), document-rag-qa-system/ 2026-09-27]
 ---
 
 # 기술 스킬
@@ -39,16 +39,17 @@ sources: [career-wiki-seed.md, 본인 구술 2026-09-09, 본인 구술 2026-09-1
 | SBERT / 임베딩 검색 | 오복이 v2.0 이후 |
 | Faiss (PQ 양자화) | 오복이 메모리 최적화 |
 | ONNX 양자화 (uint8) | 오복이 속도 7배 |
-| 하이브리드 검색 (BM25 + Dense, RRF) | 오복이 v4.0 |
+| 하이브리드 검색 (BM25 + Dense, RRF) | 오복이 v4.0, [[projects/personal/실업급여-RAG-QA]](글자 2-gram BM25, Recall@5 0.643→0.691) |
 | Stable Diffusion / ComfyUI | 레플리 이미지 생성 서비스 |
 | Prompt Engineering | 레플리 선톡 (5만 건 직접 검토), 메인 챗봇 |
 | 평가 지표 정의 | [[projects/company/선톡전송시스템]] — 정답 없는 생성 결과를 기능의 본질 목표(리텐션)로 환원해 '푸시 클릭률' 단일 지표로 정의, 프롬프트 지침 개정 |
-| LLM-as-judge | 레플리 장기기억 평가 파이프라인, AI 소설 생성 서비스 루브릭 채점, 선톡 자동 채점(5만 건 수작업 검수 대체) |
+| LLM-as-judge | [[projects/personal/실업급여-RAG-QA]](타 개발사 Judge로 자기선호 편향 감소, 5개 지표), 레플리 장기기억 평가 파이프라인, AI 소설 생성 서비스 루브릭 채점, 선톡 자동 채점(5만 건 수작업 검수 대체) |
 | 장문 창작 프롬프트 설계 | [[projects/company/AI소설생성API]] — 웹소설 회차 생성 |
 | 프롬프트 A/B 테스트 | [[projects/company/캐릭터챗봇API]] — Statsig 기반 실트래픽 분할 서빙, 대화 지속 턴 수 지표로 45% 향상 |
 | 모델 비교 실험 | AI 소설 생성 서비스 — 동일조건 A/B, 결과 예측 가능성으로 결론 |
 | QLoRA fine-tuning | 정밀의료 AI (polyglot-ko-12.8b) |
-| RAG (Retrieval-Augmented Generation) | 정밀의료 AI 문진 — ChromaDB + klue/roberta-large, 할루시네이션 방지 목적 |
+| RAG 평가 설계 (Gold Set·검색/거부/인용 지표) | [[projects/personal/실업급여-RAG-QA]] — 실질문 41문항, 근거를 원문 문자 구간으로 표시해 청킹 무관 비교, 한 번에 한 변수 실험 |
+| RAG (Retrieval-Augmented Generation) | [[projects/personal/실업급여-RAG-QA]](citation·거부 중심, Lambda 배포), 정밀의료 AI 문진 — ChromaDB + klue/roberta-large, 할루시네이션 방지 목적 |
 | ChromaDB | 정밀의료 AI 벡터 DB |
 
 ## 에이전트 / LLM 오케스트레이션

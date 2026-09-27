@@ -41,3 +41,4 @@ sources: [career-wiki-seed.md]
 | — | [[projects/personal/널스체크\|널스체크]] 출시 | https://번아웃.com/ |
 | — | [[projects/personal/ComfyUI-API-서버\|ComfyUI API Server]] 공개 | GPL-3.0 |
 | 2026.08.09– | [[projects/personal/Nightly\|Nightly]] 개발 시작 | 한 캐릭터 온톨로지 + GraphRAG |
+| 2026.09.24–27 | [[projects/personal/실업급여-RAG-QA\|실업급여 RAG QA]] (취업 과제전형) | 하이브리드 RAG + Gold Set 평가, Lambda 배포 |

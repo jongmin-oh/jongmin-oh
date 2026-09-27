@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-09-13
+updated: 2026-09-27
 ---
 
 # Wiki Index — 오종민 커리어 위키
@@ -56,6 +56,7 @@ LLM: 쿼리 응답 전 이 파일을 먼저 읽고 관련 페이지를 찾아 dr
 | [존댓말/반말 분류기](projects/personal/존댓말반말분류기.md) | 다운로드 38,641회 |
 | [널스체크](projects/personal/널스체크.md) | 간호사 번아웃 의사결정 지원 서비스 |
 | [ComfyUI API 서버](projects/personal/ComfyUI-API-서버.md) | 이미지 생성 서빙 엔진, GPL-3.0 공개 |
+| [실업급여 RAG QA](projects/personal/실업급여-RAG-QA.md) | 과제전형, RAG 문제정의→구축→평가→Lambda 배포→피드백 루프 1사이클. 지식iN 실질문 41문항 Gold Set, 한 번에 한 변수 실험(Recall@5 0.595→0.807) |
 | [Nightly](projects/personal/Nightly.md) | 한 캐릭터에 집중한 대화 에이전트 — 레플리에서 못 한 계획의 실행판, 온톨로지 + GraphRAG |
 
 ## Papers

@@ -241,3 +241,15 @@ index.md 업데이트.
 - **1차 → 2차의 변화**: 즉흥 대응(EC2, 비싼 채로) → 대응 + 단가 비교 + 재발 런북. 같은 장애를 두 번 겪으며 **대응 비용 자체가 내려간** 패턴. ([[reflections/개발을-잘한다는-것]] 5번 '실수의 경험화'의 실제 사례)
 - **남은 과제**: 두 장애의 발생 시점·다운타임 길이 `[미기록]`. 자소서·면접에서 장애 대응은 **MTTR 숫자**가 없으면 절반만 전달됨.
 - 갱신: `projects/company/이미지생성서비스.md`(인프라 결정에 하드웨어 대여 성격 명시 + '장애 경험' 절 신설 + 스택에 Docker Hub·대체 GPU) · `index.md` 요약.
+
+## [2026-09-27] ingest | 실업급여 RAG QA (document-rag-qa-system, 취업 과제전형)
+
+본인 설명: 취업 과제전형으로 진행했지만 RAG 문제정의·구축·배포 경험으로 기록. 저장소 README·decision/·evaluation/reports 직접 리딩.
+
+- 문제 정의가 **본인 실업급여 수급 경험**에서 출발(고령자 접근성, 부정수급 리스크 → citation + 거부가 가치인 도메인).
+- 평가 설계가 핵심: 지식iN 실질문 41문항 Gold Set, 검색/결정론/Judge 3층 지표, 한 번에 한 변수 실험. Recall@5 0.595→0.807, 롤백 2건(H5 프롬프트, Gemma).
+- 드러난 패턴: 작은 표본을 "경향"으로만 해석(선톡 대조군 자기 기각과 같은 태도) · 장기기억에서 RAG 보류 ↔ 여기서 채택 = 기술이 아니라 문제가 결정.
+
+신규: projects/personal/실업급여-RAG-QA.md · 갱신: index.md · timeline.md · skills/technical.md(하이브리드 검색·LLM-as-judge·RAG 행, RAG 평가 설계 행 신설) · overview.md(핵심 특징 행).
+
+※ 미확인: 지원 회사명, 과제 결과(합격 여부). 레포는 raw/가 아닌 루트 `document-rag-qa-system/`에 있음.
