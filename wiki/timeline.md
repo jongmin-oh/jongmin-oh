@@ -3,7 +3,7 @@ title: Career Timeline
 type: timeline
 tags: [career, timeline, chronology]
 created: 2026-06-21
-updated: 2026-09-02
+updated: 2026-09-29
 sources: [career-wiki-seed.md]
 ---
 
@@ -41,4 +41,5 @@ sources: [career-wiki-seed.md]
 | — | [[projects/personal/널스체크\|널스체크]] 출시 | https://번아웃.com/ |
 | — | [[projects/personal/ComfyUI-API-서버\|ComfyUI API Server]] 공개 | GPL-3.0 |
 | 2026.08.09– | [[projects/personal/Nightly\|Nightly]] 개발 시작 | 한 캐릭터 온톨로지 + GraphRAG |
+| 2026.09 | AI 영어 친구 '클로이' 기획 + 광고 A/B 검증 | 제품 없이 판매 문구 검증, 관계 프레임 2.9배 — 개발 미착수 (→ [[reflections/만들기-전에-판다]]) |
 | 2026.09.24–27 | [[projects/personal/실업급여-RAG-QA\|실업급여 RAG QA]] (취업 과제전형) | 하이브리드 RAG + Gold Set 평가, Lambda 배포 |
