@@ -6,7 +6,7 @@ I lead with **0→1 execution** and **fast prototyping** <br>
 turning problems into working products quickly. <br>
 
 ## 👨‍💼 Career
-- **AI Co-Founder @ [Reppley](http://reppley.com/)** (2022.10 – now) — character-persona chatbot, built 0→1
+- **AI Co-Founder @ [Reppley](http://reppley.com/)** (2022.10 – 2026.08) — character-persona chatbot, built 0→1
 - **AI Engineer @ [INDJ](https://www.indj.ai/)** (2021) — lyric emotion classification for music recommendation
 - **AI Engineer @ [atommerce](http://www.atommerce.com)** — emotional-support chatbot [RONI](https://www.aitimes.kr/news/articleView.html?idxno=23722)
 - **[LIKELION](https://www.likelion.net) AI program, 1st batch**
