@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-09-29
+updated: 2026-10-09
 ---
 
 # Wiki Index — 오종민 커리어 위키
@@ -41,9 +41,9 @@ LLM: 쿼리 응답 전 이 파일을 먼저 읽고 관련 페이지를 찾아 dr
 | [캐릭터 챗봇 API](projects/company/캐릭터챗봇API.md) | 캐릭터 페르소나 챗봇 API, 5개 기능, 일 70만 건, Statsig 기반 프롬프트 A/B 테스트(턴 수 +45%) |
 | [선톡 전송 시스템](projects/company/선톡전송시스템.md) | 캐릭터가 먼저 말 걸기, 일 8,000건 · 평가 지표(푸시 클릭률·GA) 정의 + 자동 채점 · 클릭률 2배(대조군 부재로 인과 미확정) |
 | [이미지 생성 서비스](projects/company/이미지생성서비스.md) | 이미지 생성 0→1, 일 3,000건, 5초, 월 24만원 · GPU 하드웨어 장애 2회 대응(EC2 g6 → RunPod A40 핫스왑 + Docker Hub 런북) |
-| [장기기억 시스템](projects/company/장기기억시스템.md) | RAG 폐기 → LLM+Redis → DynamoDB 마이그레이션 |
+| [장기기억 시스템](projects/company/장기기억시스템.md) | RAG 도입 보류 상황에서 Episodic+State 대안 출시 → DynamoDB 마이그레이션 |
 | [맛보기 채팅 웹](projects/company/맛보기채팅웹.md) | 가입 마찰 우회 진입점 |
-| [운영 도구 내재화](projects/company/운영도구내재화.md) | 9개 반복 작업 자동화 |
+| [운영 도구 내재화](projects/company/운영도구내재화.md) | 9개 반복 작업 자동화 · 그림자: 퇴사 인수인계에서 드러난 사람 의존성 → AX 자산화 문제의식 |
 | [정밀의료 AI 문진](projects/company/정밀의료AI문진.md) | 외부 과제, QLoRA, 실패 경험 |
 | [AI 소설 생성 서비스](projects/company/AI소설생성API.md) | 웹소설 연재 생성 0→1, 모델 선택을 실험으로 결정 (구현 세부 비공개) |
 
@@ -56,7 +56,7 @@ LLM: 쿼리 응답 전 이 파일을 먼저 읽고 관련 페이지를 찾아 dr
 | [존댓말/반말 분류기](projects/personal/존댓말반말분류기.md) | 다운로드 38,641회 |
 | [널스체크](projects/personal/널스체크.md) | 간호사 번아웃 의사결정 지원 서비스 |
 | [ComfyUI API 서버](projects/personal/ComfyUI-API-서버.md) | 이미지 생성 서빙 엔진, GPL-3.0 공개 |
-| [실업급여 RAG QA](projects/personal/실업급여-RAG-QA.md) | 과제전형, RAG 문제정의→구축→평가→Lambda 배포→피드백 루프 1사이클. 지식iN 실질문 41문항 Gold Set, 한 번에 한 변수 실험(Recall@5 0.595→0.807) |
+| [실업급여 RAG QA](projects/personal/실업급여-RAG-QA.md) | 엘리스 과제전형(통과 → 최종면접), RAG 문제정의→구축→평가→Lambda 배포→피드백 루프 1사이클. 지식iN 실질문 41문항 Gold Set, 한 번에 한 변수 실험(Recall@5 0.595→0.807) |
 | [Nightly](projects/personal/Nightly.md) | 한 캐릭터에 집중한 대화 에이전트 — 레플리에서 못 한 계획의 실행판, 온톨로지 + GraphRAG |
 
 ## Papers
