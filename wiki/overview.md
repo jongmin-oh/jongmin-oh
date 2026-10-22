@@ -3,8 +3,8 @@ title: Career Overview — Jongmin Oh
 type: overview
 tags: [career, AI, engineering, entrepreneurship, chatbot]
 created: 2026-06-21
-updated: 2026-09-29
-sources: [career-wiki-seed.md, 본인 구술 2026-09-09, 본인 구술 2026-09-12(비용 절감), 본인 구술 2026-09-29(개발 전 검증)]
+updated: 2026-10-22
+sources: [career-wiki-seed.md, 본인 구술 2026-09-09, 본인 구술 2026-09-12(비용 절감), 본인 구술 2026-09-29(개발 전 검증), 본인 구술 2026-10-22]
 ---
 
 # 오종민 (Jongmin Oh) — 커리어 개요
@@ -29,6 +29,8 @@ sources: [career-wiki-seed.md, 본인 구술 2026-09-09, 본인 구술 2026-09-1
 - TIPS · 예비창업패키지 · 구글 창구 선정
 
 ## 커리어 아크
+
+**개발을 배우게 된 출발점.** [[entities/companies/대진애니메이션]]에서 게임 QA·퍼블리싱과 정부지원사업 문서 작업을 하며 산업기능요원으로 복무했다. 연구소장님의 권유로 Python을 배우고, 이후 C++로 FPS 게임 데모를 제작했다. 원천 기술력의 필요성을 느껴 [[entities/education/청강대]] 복학 후 기획자에서 클라이언트 개발자 포지션으로 전환하고 1학년 프로그래밍 수업부터 다시 들었다. 졸업 당시 자기평가는 “프로그래머 수준까지는 아니더라도 코딩을 할 줄 아는 사람”이다.
 
 **감정 이해 AI의 연속적 심화.**
 

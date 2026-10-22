@@ -3,8 +3,8 @@ title: Career Timeline
 type: timeline
 tags: [career, timeline, chronology]
 created: 2026-06-21
-updated: 2026-10-08
-sources: [career-wiki-seed.md]
+updated: 2026-10-22
+sources: [career-wiki-seed.md, 본인 구술 2026-10-22]
 ---
 
 # 커리어 타임라인
@@ -12,6 +12,8 @@ sources: [career-wiki-seed.md]
 | 기간 | 역할 / 이벤트 | 조직 | 비고 |
 |------|-------------|------|------|
 | 2014.03 – 2021.02 | 게임공학부 (3년제 전문학사) | [[entities/education/청강대\|청강문화산업대학교]] | |
+| 2016.05.01 – 2018.07.12 | 제작부 · 산업기능요원 | [[entities/companies/대진애니메이션\|대진애니메이션]] | 게임 QA·퍼블리싱, 정부지원사업 PPT·문서 작성. Python→C++ 학습 및 FPS 데모 제작 |
+| 복학 후 (정확한 시점 미기록) | 기획 → 클라이언트 개발 포지션 전환 | [[entities/education/청강대\|청강대]] | 1학년 프로그래밍 수업부터 다시 수강, 졸업 지연 배경 |
 | 미상 | 논문 발표 | 청강문화산업대학교 | [[papers/가챠확률연구\|확률형 아이템 고시 확률 연구]] — DBpia Top 5% |
 | 2021.04 – 2021.07 (4개월) | AI 엔지니어 | [[entities/companies/인디제이\|INDJ]] | 가사 감정 분류 · 음악 추천 피처 개발 |
 | 2021.09 – 2021.12 (4개월) | AI 엔지니어 | [[entities/companies/아토머스\|atommerce]] | 감정 위로 챗봇 로니 |
