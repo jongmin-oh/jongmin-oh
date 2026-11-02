@@ -13,12 +13,6 @@ turning problems into working products quickly. <br>
 
 ## 🛠️ Things I built
 
-**[위로 챗봇 오복이](https://github.com/jongmin-oh/comfort-retrieval-chatbot)** — empathetic comfort chatbot (graduation project)
-- Evolved retrieval across 4 versions: Elasticsearch → SBERT embeddings → **Faiss PQ + ONNX uint8 (7× faster)** → hybrid (BM25 + dense, RRF)
-- Hand-built a 35,363-sentence comfort dataset
-
-**[널스체크](https://github.com/jongmin-oh/nurse-burnout-check)** — burnout decision-support service for nurses (React 19 + TS)
-
 **[ComfyUI API Server](https://github.com/jongmin-oh/comfyUI-api-server)** — Stable Diffusion serving engine, open-sourced (GPL-3.0, Docker/CUDA)
 
 ## 🤗 Open Source — 150K+ downloads on Hugging Face
