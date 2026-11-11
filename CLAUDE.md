@@ -93,8 +93,8 @@ When the user asks for a wiki health check:
 Populated from README.md on wiki initialization:
 
 - **Name**: Jongmin Oh (오종민)
-- **Current role**: AI Engineer & Co-Founder at Reppley
-- **Past roles**: AI Engineer at INDJ (music recommendation), AI Engineer at atommerce (chatbot RONI)
+- **Current role**: AI Product Engineer (full-stack) at Genon, 솔루션개발그룹 — GENA service (2026.10–)
+- **Past roles**: AI Engineer & Co-Founder at Reppley (2022.10–2026.08), AI Engineer at INDJ (music recommendation), AI Engineer at atommerce (chatbot RONI)
 - **Education**: LIKELION AI program, 1st batch
 - **Research**: Paper on emotion analysis in song lyrics using BERT + emotional lexicon (Korean Computer Information Society, July 2022)
 - **Blog**: https://velog.io/@acdongpgm

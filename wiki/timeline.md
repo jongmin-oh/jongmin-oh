@@ -3,8 +3,8 @@ title: Career Timeline
 type: timeline
 tags: [career, timeline, chronology]
 created: 2026-06-21
-updated: 2026-10-22
-sources: [career-wiki-seed.md, 본인 구술 2026-10-22]
+updated: 2026-11-11
+sources: [career-wiki-seed.md, 본인 구술 2026-10-22, 본인 구술 2026-11-11]
 ---
 
 # 커리어 타임라인
@@ -19,7 +19,7 @@ sources: [career-wiki-seed.md, 본인 구술 2026-10-22]
 | 2021.09 – 2021.12 (4개월) | AI 엔지니어 | [[entities/companies/아토머스\|atommerce]] | 감정 위로 챗봇 로니 |
 | 2022.03 – 2023.02 | 컴퓨터정보과 전공 심화 (학사) | [[entities/education/인하공전\|인하공업전문대학]] | GPA 4.36 / 4.5 |
 | 2022.07.14 | 논문 발표 | 한국컴퓨터정보학회 | [[papers/가사감정분석\|가사 감정 분석 논문]] |
-| 2022.10 – 현재 | AI Co-founder | [[entities/companies/레플리\|Reppley]] | 백엔드·AI 개발 |
+| 2022.10 – 2026.08 | AI Co-founder | [[entities/companies/레플리\|Reppley]] | 백엔드·AI 개발 |
 | 2022.11 | 졸업작품 출시 | 개인 | [[projects/personal/오복이\|위로 챗봇 오복이]] |
 | 레플리 초기 | 콜드스타트 seeding | Reppley | '둘러보기'에 캐릭터 30개+·SNS 피드에 게시물 350개(팔로워 450) 직접 채움 (→ [[reflections/확장되지-않는-일을-하는-사람]]) |
 | 2022.11.25 | 특허 출원 | 개인 | AI 기반 챗봇 학습 데이터 생성 방법 |
@@ -28,6 +28,7 @@ sources: [career-wiki-seed.md, 본인 구술 2026-10-22]
 | 2025.01.15 | 특허 등록 | KIPO | 제 10-2757044 호 |
 | 2026.06 – 2026.08 | AI 소설 생성 서비스 개발 | Reppley | [[projects/company/AI소설생성API\|AI 소설 생성 서비스]] — 웹소설 연재 생성 0→1 |
 | 2026.08 – 현재 | 개인 프로젝트 진행 중 | 개인 | [[projects/personal/Nightly\|Nightly]] — 한 캐릭터 집중 대화 에이전트 |
+| 2026.10 – 현재 | AI Product Engineer (풀스택) | [[entities/companies/제논\|Genon]] · 솔루션개발그룹 | GENA 서비스 담당 |
 
 ## 개인 프로젝트 타임라인
 

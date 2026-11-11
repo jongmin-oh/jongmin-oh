@@ -3,8 +3,8 @@ title: Career Overview — Jongmin Oh
 type: overview
 tags: [career, AI, engineering, entrepreneurship, chatbot]
 created: 2026-06-21
-updated: 2026-10-22
-sources: [career-wiki-seed.md, 본인 구술 2026-09-09, 본인 구술 2026-09-12(비용 절감), 본인 구술 2026-09-29(개발 전 검증), 본인 구술 2026-10-22]
+updated: 2026-11-11
+sources: [career-wiki-seed.md, 본인 구술 2026-09-09, 본인 구술 2026-09-12(비용 절감), 본인 구술 2026-09-29(개발 전 검증), 본인 구술 2026-10-22, 본인 구술 2026-11-11]
 ---
 
 # 오종민 (Jongmin Oh) — 커리어 개요
@@ -23,7 +23,12 @@ sources: [career-wiki-seed.md, 본인 구술 2026-09-09, 본인 구술 2026-09-1
 
 ## 현재
 
-**AI Co-founder @ [[entities/companies/레플리]]** (2022.10 – 현재)
+**AI Product Engineer (풀스택) @ [[entities/companies/제논|Genon]] · 솔루션개발그룹** (2026.10 – 현재)
+- GENA 서비스(https://gena.kr/chat/) 담당 — AI·프론트엔드·백엔드를 아우르는 제품 엔지니어
+
+## 직전
+
+**AI Co-founder @ [[entities/companies/레플리]]** (2022.10 – 2026.08)
 - 캐릭터 페르소나 챗봇 서비스를 0→1로 설계·구현·운영
 - MAU 3만 · 일 최고 70만 대화 규모 직접 운영
 - TIPS · 예비창업패키지 · 구글 창구 선정
@@ -34,7 +39,7 @@ sources: [career-wiki-seed.md, 본인 구술 2026-09-09, 본인 구술 2026-09-1
 
 **감정 이해 AI의 연속적 심화.**
 
-[[entities/education/멋쟁이사자처럼]] AI 교육으로 시작 → [[entities/companies/인디제이]]에서 가사 감정 분석으로 음악 추천 피처 개발 → [[entities/companies/아토머스]]에서 감정 위로 챗봇 로니 개발 → [[entities/companies/레플리]] 공동 창업으로 캐릭터 페르소나 챗봇 서비스 0→1 구축.
+[[entities/education/멋쟁이사자처럼]] AI 교육으로 시작 → [[entities/companies/인디제이]]에서 가사 감정 분석으로 음악 추천 피처 개발 → [[entities/companies/아토머스]]에서 감정 위로 챗봇 로니 개발 → [[entities/companies/레플리]] 공동 창업으로 캐릭터 페르소나 챗봇 서비스 0→1 구축 → [[entities/companies/제논|Genon]]에서 GENA 담당 AI Product Engineer(풀스택).
 
 세 번의 스타트업 경험 전부 **"AI가 인간의 감정을 이해하는"** 도메인이다. 음악 감정 → 정신건강 위로 → 캐릭터 유대. 단, 본인은 이를 의도된 정체성이 아닌 **결과적 도메인 공통점**으로 봄 — 자기 정의는 문제중심·0→1·빠른 프로토타이핑 쪽이다.
 
@@ -80,4 +85,4 @@ sources: [career-wiki-seed.md, 본인 구술 2026-09-09, 본인 구술 2026-09-1
 
 ## 관련 페이지
 
-→ [[reflections/코더에서-문제해결사로]] · [[timeline]] · [[skills/technical]] · [[skills/working-style]] · [[entities/companies/레플리]]
+→ [[reflections/코더에서-문제해결사로]] · [[timeline]] · [[skills/technical]] · [[skills/working-style]] · [[entities/companies/레플리]] · [[entities/companies/제논]]

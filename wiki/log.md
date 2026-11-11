@@ -305,3 +305,17 @@ index.md 업데이트.
 - 본인 구술 추가: "코드 한 줄은 쉬워졌지만 코드를 치기 전 확신을 만드는 게 어렵고, 원하지 않는 제품을 만든 경험이 많아 실패를 줄이는 방법으로 인상 깊었다." → 시행착오 1번과 연결.
 - 참고: 본인이 언급한 '당근 배너에서 시작' 내용은 리포트에 없어 위키에 반영하지 않음.
 - 갱신: reflections/만들기-전에-판다.md · index.md · raw/ 신규 1건.
+
+## [2026-11-11] update | Genon 합류 — GENA 담당 AI Product Engineer (본인 구술)
+
+- 신규 소속: **Genon · 솔루션개발그룹**, 역할 **AI Product Engineer (풀스택)**, 담당 서비스 **GENA** (https://gena.kr/chat/).
+- 기간은 README 기준: Genon 2026.10 – 현재, 레플리 2022.10 – 2026.08 (레플리를 '현재'에서 '과거'로 전환).
+- 신규: entities/companies/제논.md (GENA 서비스 정의·스택·성과는 `[미기록]`).
+- 갱신: entities/companies/레플리.md · overview.md · timeline.md · index.md · CLAUDE.md(seed 사실).
+- 미정리: reflections/80퍼센트-프로토타입.md · overview.md의 "레플리 3년 8개월" 표현은 실제 재직 기간(2022.10–2026.08)과 맞는지 확인 필요.
+
+## [2026-11-11] ingest | 제논 채용공고 (AI Product Engineer, 본인 합격 포지션)
+
+- 본인이 붙여넣은 채용공고에서 회사 소개·포지션 정의·주요 업무만 entities/companies/제논.md에 반영. 복리후생·전형 절차·자격요건 원문은 제외(본인 요청: 필요한 것만). raw/ 보관 안 함.
+- 추가: 공고 요구 ↔ 기존 위키 증거 매핑, 긴장 지점(80% 프로토타입 vs 운영 가능한 제품 — 엘리스 JD와 같은 축), 빈 곳(K8s·B2B 운영 품질·분산 추적·조직 단위 AI 워크플로우).
+- 갱신: entities/companies/제논.md · index.md.

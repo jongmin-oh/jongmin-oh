@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-10-22
+updated: 2026-11-11
 ---
 
 # Wiki Index — 오종민 커리어 위키
@@ -22,7 +22,8 @@ LLM: 쿼리 응답 전 이 파일을 먼저 읽고 관련 페이지를 찾아 dr
 
 | 페이지 | 요약 |
 |--------|------|
-| [레플리](entities/companies/레플리.md) | 현재 — AI Co-founder, 캐릭터 챗봇, MAU 3만 |
+| [제논 (Genon)](entities/companies/제논.md) | 현재 (2026.10–) — 생성형 AI B2B 솔루션 기업, 솔루션개발그룹 · GENA 담당 AI Product Engineer (풀스택). 포지션: AI 활용 개발을 조직 표준으로, 데모가 아닌 운영 가능한 제품. 신규 영역: B2B 고객사 환경 |
+| [레플리](entities/companies/레플리.md) | 2022.10–2026.08 — AI Co-founder, 캐릭터 챗봇, MAU 3만 |
 | [아토머스](entities/companies/아토머스.md) | 2021.09–12 — 감정 위로 챗봇 로니 |
 | [인디제이](entities/companies/인디제이.md) | 2021.04–07 — 음악 가사 감정 분류 |
 | [대진애니메이션](entities/companies/대진애니메이션.md) | 2016.05.01–2018.07.12 — 제작부 산업기능요원, 게임 QA·퍼블리싱·정부지원사업 문서, Python→C++ 학습과 진로 전환 |
